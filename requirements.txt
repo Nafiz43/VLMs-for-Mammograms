@@ -1,0 +1,5 @@
+langchain
+click
+pandas
+langchain_community
+langchain-ollama # for ollama

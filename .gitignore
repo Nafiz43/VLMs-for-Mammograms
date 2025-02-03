@@ -1,0 +1,10 @@
+# Ignore a specific file
+secret.txt
+Miniconda3-latest-Linux-x86_64.sh
+
+# Ignore files in a specific directory
+/data/
+/DB/
+/local_chat_history/
+/__pycache__/
+/results/
