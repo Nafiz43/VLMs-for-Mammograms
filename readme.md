@@ -1,6 +1,6 @@
-# Procedural Case Log Project
+# VLMs-for-Mammograms Project
 
-This README provides instructions for setting up and running the Proccedural Case Log roject.
+This README provides instructions for setting up and running the VLMs-for-Mammograms project.
 
 ## Table of Contents
 1. [System Requirements](#system-requirements)
@@ -73,19 +73,6 @@ This README provides instructions for setting up and running the Proccedural Cas
 
 
 4. Results will be stored in `result.csv` file
-
-
-However, if you want to see block-by-block output from the code, do the following:
-1. Open the `evaluation.ipynb` notebook
-
-2. Activate the localGPT enviroment 
-
-3. In the third cell of the notebook, rename the LLM response file
-
-4. Run all the cells sequenrially.
-
-5. Result will be stored in `result.csv` file
-
 
 ## Docker Commands:
 1. Building the Docker Image:
