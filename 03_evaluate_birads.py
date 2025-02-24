@@ -9,12 +9,17 @@ from sklearn.metrics import confusion_matrix
 
 # Define directories
 ground_truth_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/GROUND-TRUTH-REPORTS"
-test_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/qwen_base"
+test_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/llava_base"
 
 
 # Lists to store BIRADS values
 ground_truth_birads = []
 test_birads = []
+
+def replace_values(lst):
+    return [1 if x in {1, 2, 3} else 2 if x in {4, 5, 6} else x for x in lst]
+
+
 
 # Get list of JSON files in ground-truth directory
 json_files = sorted(f for f in os.listdir(ground_truth_dir) if f.endswith(".json"))
@@ -33,6 +38,11 @@ for json_file in json_files:
     with open(test_path, "r") as test_file:
         test_data = json.load(test_file)
         test_birads.append(test_data.get("BIRADS"))  # Extract BIRADS value
+
+# clubbing birads into two categories
+ground_truth_birads = replace_values(ground_truth_birads)
+test_birads = replace_values(test_birads)
+# clubbing birads into two categories
 
 # Print the lists
 print("Ground Truth BIRADS:", ground_truth_birads)
