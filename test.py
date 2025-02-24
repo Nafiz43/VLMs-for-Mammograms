@@ -10,7 +10,7 @@ hypothesis = ["the", "cat", "is", "on", "mat"]  # Hypothesis is a single list
 bleu_score = sentence_bleu(references, hypothesis, weights=(0.25, 0.25, 0.25, 0.25),
                            smoothing_function=SmoothingFunction().method1)
 
-P, R, F1 = bert_score.score(hypothesis, references, lang="en", model_type="microsoft/deberta-xlarge-mnli")
+# P, R, F1 = bert_score.score(hypothesis, references, lang="en", model_type="microsoft/deberta-xlarge-mnli")
 
 
 print("BLEU-4 Score:", bleu_score)

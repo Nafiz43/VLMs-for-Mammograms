@@ -129,3 +129,7 @@ for i in range(0, len(ground_truth_findings)):
 
 
 print("BLEU-4 Score:", round(bleu_score/len(ground_truth_findings), 2))
+
+P, R, F1 = bert_score.score(test_findings, ground_truth_findings, lang="en", model_type="microsoft/deberta-xlarge-mnli")
+
+print("BERT Score:", F1.mean().item())
