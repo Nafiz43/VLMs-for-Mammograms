@@ -9,14 +9,14 @@ from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 import bert_score
 from nltk.tokenize import word_tokenize
 from rouge_score import rouge_scorer
+from post_processing_birads import *
 
 
 
-# Define directories
 ground_truth_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/GROUND-TRUTH-REPORTS"
-test_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/llava_base"
+test_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/mistral_base"
 
-
+process_json_files(test_dir)
 # Lists to store BIRADS values
 ground_truth_birads = []
 test_birads = []
@@ -35,7 +35,7 @@ def replace_values(lst):
 
 
 # Get list of JSON files in ground-truth directory
-json_files = sorted(f for f in os.listdir(ground_truth_dir) if f.endswith(".json"))
+json_files = sorted(f for f in os.listdir(test_dir) if f.endswith(".json"))
 
 # Iterate through each file
 for json_file in json_files:
@@ -143,7 +143,7 @@ print("FINDINGS CATEGORY BERT Score:", F1.mean().item())
 print("FINDINGS CATEGORY ROUGE-L Score:", round(rouge_l_score/len(ground_truth_findings), 2))
 
 print("-------------------------------------------------------------------")
-print(test_breast_composition[0])
+# print(test_breast_composition[0])
 
 bleu_score = 0
 rouge_l_score = 0

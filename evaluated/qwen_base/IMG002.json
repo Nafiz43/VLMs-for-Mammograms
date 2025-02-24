@@ -1,6 +1,6 @@
 {
-    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/png_images/all_images/IMG002.png",
+    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG002.png",
     "BREAST-COMPOSITION": "Fatty with scattered fibroglandular densities",
-    "BIRADS": 3,
-    "FINDINGS": "No significant masses or calcifications observed. Mild asymmetry noted between the left and right breasts. No suspicious abnormalities identified."
+    "BIRADS": "3 - Benign lesion, probably benign (requires short-term follow-up)",
+    "FINDINGS": "No significant findings. A small area of benign hyperplasia noted in the upper outer quadrant."
 }

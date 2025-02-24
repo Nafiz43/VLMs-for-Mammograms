@@ -12,6 +12,11 @@ import os
 import json
 import re
 
+# source_file_dir = '/mnt/data1/raiyan/breast_cancer/datasets/dmid/png_images/all_images/IMG'
+
+source_file_dir =  '/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG'
+saving_dir = 'evaluated/llava_base/'
+
 temp = 0
 prompt_technique = "base"
 prompt_template = """
@@ -27,7 +32,7 @@ Please follow the below given JSON format for your response:
 """
 
 
-allowable_models = ["meditron:latest", "qwen2.5:latest", "medllama2:latest", "llama3.1:latest", "gemma:7b-instruct", "mistral:7b-instruct", "mixtral:8x7b-instruct-v0.1-q4_K_M", 
+allowable_models = ["meditron:latest", "jyan1/paligemma-mix-224:latest", "qwen2.5:latest", "medllama2:latest", "llama3.1:latest", "gemma:7b-instruct", "mistral:7b-instruct", "mixtral:8x7b-instruct-v0.1-q4_K_M", 
          "llama2:latest", "llama2:70b-chat-q4_K_M", "llama2:13b-chat", "llama3.8b-instruct-q4_K_M", "llama3.3:70b", "llama3.2:latest", "meditron:70b", "tinyllama", "mistral", "mistral-nemo:latest", 
           'vanilj/llama-3-8b-instruct-32k-v0.1:latest', "mistrallite:latest", "mistral-nemo:12b-instruct-2407-q4_K_M", "llama3.2:3b-instruct-q4_K_M", "deepseek-r1:1.5b",
           "deepseek-r1:7b", "deepseek-r1:70b", "qordmlwls/llama3.1-medical:latest", "mixtral:latest","llava:latest"]
@@ -104,6 +109,9 @@ def main(model_name, reports_to_process):
     if(reports_to_process > 0):
         # data = data.head(reports_to_process)
         print(f"Processing only {reports_to_process} reports")
+    
+    if(reports_to_process == -1):
+        reports_to_process = 510
 
 
     # Your existing logic to handle logging
@@ -124,7 +132,7 @@ def main(model_name, reports_to_process):
 
 
     for report in range(0, reports_to_process):
-        report_id = '/mnt/data1/raiyan/breast_cancer/datasets/dmid/png_images/all_images/IMG' + str(report+1).zfill(3)+'.png'
+        report_id = source_file_dir + str(report+1).zfill(3)+'.png'
         print(report_id)
         image_id = 'IMG'+ str(report+1).zfill(3)
         
@@ -156,14 +164,15 @@ def main(model_name, reports_to_process):
             json_match = fix_json(json_match.group(0))
         
         print(json_match)
-        saving_dir = 'evaluated/llava/'+image_id + '.json'
+        global saving_dir
+        image_saving_dir = saving_dir +image_id + '.json'
 
-        os.makedirs(os.path.dirname(saving_dir), exist_ok=True)
-        with open(saving_dir, 'w') as json_file:
+        os.makedirs(os.path.dirname(image_saving_dir), exist_ok=True)
+        with open(image_saving_dir, 'w') as json_file:
             json.dump(json_match, json_file, indent=4)
         
 
-        print("Data has been written to", saving_dir)
+        print("Data has been written to", image_saving_dir)
 
     print("\nTotal Reports Processed", reports_to_process)
 

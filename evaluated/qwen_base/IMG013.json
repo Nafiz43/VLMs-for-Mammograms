@@ -1,6 +1,6 @@
 {
-    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/png_images/all_images/IMG013.png",
+    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG013.png",
     "BREAST-COMPOSITION": "Fatty with scattered fibroglandular densities",
-    "BIRADS": 2,
-    "FINDINGS": "No significant abnormalities or calcifications observed. The breast composition is predominantly fatty with scattered areas of fibroglandular density."
+    "BIRADS": "2 - Benign findings, probably benign lesion (e.g., fibroadenoma)",
+    "FINDINGS": "No significant abnormalities noted. No masses or calcifications identified."
 }
