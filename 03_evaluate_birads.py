@@ -1,11 +1,15 @@
 import os
 import json
+import numpy as np
+import seaborn as sns
 from sklearn.metrics import classification_report, precision_recall_fscore_support
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix
 
 
 # Define directories
 ground_truth_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/GROUND-TRUTH-REPORTS"
-test_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/llava_base"
+test_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/qwen_base"
 
 
 # Lists to store BIRADS values
@@ -37,9 +41,6 @@ print("Test BIRADS:", test_birads)
 print(len(ground_truth_birads))
 print(len(test_birads))
 
-# ground_truth_birads = [1,2,3,4,5, 1,2,3,4,5]
-# test_birads = [1,2,3,4,5, 1,2,3,4,5]
-
 
 # Convert lists to a uniform data type (integers)
 cnt = 0
@@ -65,3 +66,18 @@ precision, recall, f1_score, _ = precision_recall_fscore_support(
 print(f"Precision: {precision:.4f}")
 print(f"Recall: {recall:.4f}")
 print(f"F1-Score: {f1_score:.4f}")
+
+
+# Generate confusion matrix
+cm = confusion_matrix(ground_truth_birads, test_birads)
+
+# Plot confusion matrix
+plt.figure(figsize=(8, 6))
+sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", xticklabels=np.unique(ground_truth_birads), yticklabels=np.unique(ground_truth_birads))
+
+# Labels and title
+plt.xlabel("Predicted Labels")
+plt.ylabel("True Labels")
+plt.title("Confusion Matrix")
+plt.savefig('abc.png')
+plt.show()
