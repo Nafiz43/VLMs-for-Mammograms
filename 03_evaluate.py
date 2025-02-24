@@ -8,6 +8,7 @@ from sklearn.metrics import confusion_matrix
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 import bert_score
 from nltk.tokenize import word_tokenize
+from rouge_score import rouge_scorer
 
 
 
@@ -57,7 +58,7 @@ for json_file in json_files:
 
         test_birads.append(test_data.get("birads"))  # Extract BIRADS value
         test_findings.append((test_data.get("findings")))
-        test_breast_composition.append((test_data.get("breast_composition")))
+        test_breast_composition.append((test_data.get("breast-composition")))
 
 # clubbing birads into two categories
 ground_truth_birads = replace_values(ground_truth_birads)
@@ -113,23 +114,56 @@ image_save_dir = test_dir.replace('/mnt/data1/raiyan/breast_cancer/VLMs-for-Mamm
 plt.savefig(image_save_dir)
 plt.show()
 
-print(ground_truth_findings[0])
-print(test_findings[0])
+# print(ground_truth_findings[0])
+# print(test_findings[0])
 
 # reference =   # List of lists
 # hypothesis =   # Single list
 
+# print("Printing here", ground_truth_findings[0], test_findings[0])
+
 bleu_score = 0
+rouge_l_score = 0
 for i in range(0, len(ground_truth_findings)):
-    x = sentence_bleu([word_tokenize(ground_truth_findings[0])], word_tokenize(test_findings[0]))
-    # print(x)
-    bleu_score += x
+    # x = sentence_bleu([word_tokenize(ground_truth_findings[i])], word_tokenize(test_findings[i]), weights=(0.25, 0.25, 0.25, 0.25),
+    #                        smoothing_function=SmoothingFunction().method1)
+    # # print(x)
+    # bleu_score += x
 
+    scorer = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=False)
+    scores = scorer.score(ground_truth_findings[i], test_findings[i])  # Use i instead of 0
+    rouge_l_score += scores['rougeL'].fmeasure  # Use .fmeasure explicitly
 
-
-
-print("BLEU-4 Score:", round(bleu_score/len(ground_truth_findings), 2))
+# print("FINDINGS CATEGORY BLEU-4 Score:", round(bleu_score/len(ground_truth_findings), 2))
 
 P, R, F1 = bert_score.score(test_findings, ground_truth_findings, lang="en", model_type="microsoft/deberta-xlarge-mnli")
 
-print("BERT Score:", F1.mean().item())
+print("FINDINGS CATEGORY BERT Score:", F1.mean().item())
+
+print("FINDINGS CATEGORY ROUGE-L Score:", round(rouge_l_score/len(ground_truth_findings), 2))
+
+print("-------------------------------------------------------------------")
+print(test_breast_composition[0])
+
+bleu_score = 0
+rouge_l_score = 0
+for i in range(0, len(ground_truth_breast_composition)):
+    # print(ground_truth_breast_composition[i], test_breast_composition[i])
+    # x = sentence_bleu([word_tokenize(ground_truth_breast_composition[i])], word_tokenize(test_breast_composition[i]), weights=(0.25, 0.25, 0.25, 0.25),
+    #                        smoothing_function=SmoothingFunction().method1)
+    # print(x)
+    # bleu_score += x
+
+    scorer = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=False)
+    scores = scorer.score(ground_truth_breast_composition[i], test_breast_composition[i])  # Use i instead of 0
+    rouge_l_score += scores['rougeL'].fmeasure  # Use .fmeasure explicitly
+
+# print("BREAST-COMPOSITION CATEGORY BLEU-4 Score:", round(bleu_score/len(test_breast_composition), 2))
+
+P, R, F1 = bert_score.score(ground_truth_breast_composition, test_breast_composition, lang="en", model_type="microsoft/deberta-xlarge-mnli")
+
+print("BREAST-COMPOSITION CATEGORY BERT Score:", F1.mean().item())
+
+print("BREAST-COMPOSITION CATEGORY ROUGE-L Score:", round(rouge_l_score/len(ground_truth_breast_composition), 2))
+
+
