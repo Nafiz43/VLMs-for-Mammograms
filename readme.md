@@ -124,3 +124,5 @@ This README provides instructions for setting up and running the VLMs-for-Mammog
    exit
    ```
 
+FOR DEEPBLUE, 
+USE THE ENVIROMENT: fine_tune

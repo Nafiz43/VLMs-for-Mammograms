@@ -9,7 +9,7 @@ def parse_mammogram_report(report: str, img_id: str) -> dict:
     breast_composition = breast_composition_match.group(1).strip() if breast_composition_match else ""
     
     # Extract BIRADS
-    birads_match = re.search(r'(BIRADS|Birads):\s*(\d+)', report, re.IGNORECASE)
+    birads_match = re.search(r'BIRADS:\s*(\d+)', report, re.IGNORECASE)
     birads = birads_match.group(1) if birads_match else ""
     
     # Extract Findings

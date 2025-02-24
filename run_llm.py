@@ -9,6 +9,10 @@ import sys
 from pydantic import BaseModel
 import random
 import os
+import json
+import re
+
+
 
 # data = pd.read_csv('data/Labeled/labels_v2.csv')
 # data = pd.read_csv('data/labels.csv')
@@ -23,10 +27,10 @@ prompt_template = """
 I will provide you with a mammogram image. Your task is to analyze the image and extract key diagnostic information, including breast composition, BIRADS category, and any significant findings. Present the output in a structured JSON format with the following keys: IMG_ID, Breast_Composition, BIRADS, and Findings. Ensure the response is precise, medically relevant, and well-organized.
 Please follow the below given JSON format for your response:
 {
-    "IMG_ID": "<Image_Filename>",
-    "Breast_Composition": "<Description of breast composition>",
+    "IMG-ID": "<Image_Filename>",
+    "BREAST-COMPOSITION": "<Description of breast tissue composition>",
     "BIRADS": "<BIRADS category (e.g., 1, 2, 3, etc.)>",
-    "Findings": "<Summary of any abnormalities, calcifications, or other observations>"
+    "FINDINGS": "<Summary of any abnormalities, calcifications, or other observations>"
 }
 
 """
@@ -36,8 +40,6 @@ allowable_models = ["meditron:latest", "medllama2:latest", "llama3.1:latest", "g
           'vanilj/llama-3-8b-instruct-32k-v0.1:latest', "mistrallite:latest", "mistral-nemo:12b-instruct-2407-q4_K_M", "llama3.2:3b-instruct-q4_K_M", "deepseek-r1:1.5b",
           "deepseek-r1:7b", "deepseek-r1:70b", "qordmlwls/llama3.1-medical:latest", "mixtral:latest","llava:latest"]
 
-import json
-import re
 
 # Define the expected JSON schema using Pydantic
 class ClassificationResponse(BaseModel):
@@ -77,7 +79,8 @@ def fix_json(json_input):
             parsed_json = json.loads(json_input[:i])  # Try parsing progressively shorter substrings
             if isinstance(parsed_json, dict):
                 return parsed_json  # Ensure it's a dictionary
-        except json.JSONDecodeError:
+        except Exception as e:
+            print(f"Unexpected error: {e}")  # Catch other unforeseen errors
             continue  # Keep trimming
 
     # If all attempts fail, return error JSON
@@ -129,23 +132,29 @@ def main(model_name, reports_to_process):
 
 
     for report in range(0, reports_to_process):
-        report_id = str(report).zfill(3) 
+        report_id = '/mnt/data1/raiyan/breast_cancer/datasets/dmid/png_images/all_images/IMG' + str(report+1).zfill(3)+'.png'
+        print(report_id)
+        image_id = 'IMG'+ str(report+1).zfill(3)+'.png'
+        
         # query = 'image ID: ' + report_id
-        query =  'Process the report having the image ID: IMG'+  report_id+'.png'
+        query = prompt_template+ 'image ID: '+  report_id
 
         ollama = Ollama(model=model_name, temperature=temp)
         logging.getLogger().setLevel(logging.ERROR)  # Suppress INFO logs
-        # response = ollama.invoke(query)
+        response = ollama.invoke(query)
+        print(response)
         ###the following is a dummy response###
-        dummy_data = {
-            "IMG_ID": "image_001.jpg",
-            "Breast_Composition": "Dense tissue with scattered fibroglandular elements",
-            "BIRADS": "2",
-            "Findings": "No significant abnormalities or calcifications. Normal breast tissue."
-        }
-        dummy_data_str = json.dumps(dummy_data, indent=4)
+        # dummy_data = {
+        #     "IMG_ID": "image_001.jpg",
+        #     "Breast_Composition": "Dense tissue with scattered fibroglandular elements",
+        #     "BIRADS": "2",
+        #     "Findings": "No significant abnormalities or calcifications. Normal breast tissue."
+        # }
+        # dummy_data_str = json.dumps(dummy_data, indent=4)
 
-        response =dummy_data_str+"abdc"
+        # response =dummy_data_str+"abdc"
+        ### dummy response processing ENDS###
+
         json_match = re.search(r"\{.*\}", response, re.DOTALL)
         if json_match in [None, ""]:
             json_match = {"IMG_ID": "NA", "Breast_Composition": "NA", "BIRADS": "NA", "Findings": "NA"}
@@ -153,7 +162,7 @@ def main(model_name, reports_to_process):
             json_match = fix_json(json_match.group(0))
         
         print(json_match)
-        saving_dir = 'evaluated/'+report_id + '.json'
+        saving_dir = 'evaluated/'+image_id + '.json'
 
         os.makedirs(os.path.dirname(saving_dir), exist_ok=True)
         with open(saving_dir, 'w') as json_file:
