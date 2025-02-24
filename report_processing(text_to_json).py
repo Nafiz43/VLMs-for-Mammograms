@@ -4,15 +4,17 @@ import os
 
 def parse_mammogram_report(report: str, img_id: str) -> dict:
     # Extract Breast Composition
-    breast_composition_match = re.search(r'Breast Composition:\s*(.*)', report)
+    breast_composition_match = re.search(r'Breast Composition:\s*(.*)', report, re.IGNORECASE)
+
     breast_composition = breast_composition_match.group(1).strip() if breast_composition_match else ""
     
     # Extract BIRADS
-    birads_match = re.search(r'BIRADS:\s*(\d+)', report)
+    birads_match = re.search(r'(BIRADS|Birads):\s*(\d+)', report, re.IGNORECASE)
     birads = birads_match.group(1) if birads_match else ""
     
     # Extract Findings
-    findings_match = re.search(r'Findings:\s*(.*?)(?=\n\*\*\*REPORT ENDS\*\*\*|$)', report, re.DOTALL)
+    findings_match = re.search(r'Findings:\s*(.*?)(?=\n\*\*\*REPORT ENDS\*\*\*|$)', report, re.DOTALL | re.IGNORECASE)
+
     findings = findings_match.group(1).strip() if findings_match else ""
     
     # Construct JSON output
