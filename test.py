@@ -1,7 +1,17 @@
-def replace_values(lst):
-    return [1 if x in {1, 2, 3} else 2 if x in {4, 5, 6} else x for x in lst]
+from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
+import bert_score
 
-# Example usage
-my_list = [0, 1, 2, 3, 4, 5, 6, 7, 8]
-new_list = replace_values(my_list)
-print(new_list)  # Output: [0, 1, 1, 1, 2, 2, 2, 7, 8]
+
+# Example Reference and Hypothesis Lists
+references = [["the", "cat", "is", "on", "the", "mat"]]  # Reference should be a list of lists
+hypothesis = ["the", "cat", "is", "on", "mat"]  # Hypothesis is a single list
+
+# Compute BLEU-4 Score
+bleu_score = sentence_bleu(references, hypothesis, weights=(0.25, 0.25, 0.25, 0.25),
+                           smoothing_function=SmoothingFunction().method1)
+
+P, R, F1 = bert_score.score(hypothesis, references, lang="en", model_type="microsoft/deberta-xlarge-mnli")
+
+
+print("BLEU-4 Score:", bleu_score)
+print("BERT F1-score:", F1.mean().item())
