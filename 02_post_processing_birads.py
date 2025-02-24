@@ -31,5 +31,5 @@ def process_json_files(repo_path):
                     print(f"Error processing {file_path}: {e}")
 
 # Example usage
-repo_directory = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/qwen"  # Change this to your repo path
+repo_directory = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/qwen_base"  # Change this to your repo path
 process_json_files(repo_directory)
