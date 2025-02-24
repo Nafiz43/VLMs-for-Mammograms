@@ -1,0 +1,15 @@
+{
+    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/png_images/all_images/IMG331.png",
+    "BREAST-COMPOSITION": "Fatty with scattered fibroglandular densities",
+    "BIRADS": 4,
+    "FINDINGS": [
+        {
+            "Type": "Calcifications",
+            "Description": "Fine granular calcifications in the upper outer quadrant."
+        },
+        {
+            "Type": "Mass",
+            "Description": "A small, well-defined mass measuring 1.2 cm in the lower inner quadrant with spiculated margins."
+        }
+    ]
+}
