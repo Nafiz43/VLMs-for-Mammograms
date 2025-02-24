@@ -29,13 +29,14 @@ Please follow the below given JSON format for your response:
 {
     "IMG-ID": "<Image_Filename>",
     "BREAST-COMPOSITION": "<Description of breast tissue composition>",
-    "BIRADS": "<BIRADS category (e.g., 1, 2, 3, etc.)>",
+    "BIRADS": "<BIRADS category; any values between 1 to 6. BI-RADS category is a standardized classification for breast imaging findings, ranging from 1 to 6, where: BI-RADS 1 indicates a negative result with no abnormalities; BI-RADS 2 signifies benign findings with no suspicion of cancer; BI-RADS 3 suggests a probably benign lesion, requiring short-term follow-up to confirm stability; BI-RADS 4 represents a suspicious abnormality needing biopsy, further divided into 4A (low suspicion), 4B (moderate suspicion), and 4C (high suspicion); BI-RADS 5 is highly suggestive of malignancy with a high probability of cancer; and BI-RADS 6 confirms a known malignancy with a biopsy-proven cancer diagnosis.",
     "FINDINGS": "<Summary of any abnormalities, calcifications, or other observations>"
 }
 
 """
 
-allowable_models = ["meditron:latest", "medllama2:latest", "llama3.1:latest", "gemma:7b-instruct", "mistral:7b-instruct", "mixtral:8x7b-instruct-v0.1-q4_K_M", 
+
+allowable_models = ["meditron:latest", "qwen2.5:latest", "medllama2:latest", "llama3.1:latest", "gemma:7b-instruct", "mistral:7b-instruct", "mixtral:8x7b-instruct-v0.1-q4_K_M", 
          "llama2:latest", "llama2:70b-chat-q4_K_M", "llama2:13b-chat", "llama3.8b-instruct-q4_K_M", "llama3.3:70b", "llama3.2:latest", "meditron:70b", "tinyllama", "mistral", "mistral-nemo:latest", 
           'vanilj/llama-3-8b-instruct-32k-v0.1:latest', "mistrallite:latest", "mistral-nemo:12b-instruct-2407-q4_K_M", "llama3.2:3b-instruct-q4_K_M", "deepseek-r1:1.5b",
           "deepseek-r1:7b", "deepseek-r1:70b", "qordmlwls/llama3.1-medical:latest", "mixtral:latest","llava:latest"]
@@ -134,7 +135,7 @@ def main(model_name, reports_to_process):
     for report in range(0, reports_to_process):
         report_id = '/mnt/data1/raiyan/breast_cancer/datasets/dmid/png_images/all_images/IMG' + str(report+1).zfill(3)+'.png'
         print(report_id)
-        image_id = 'IMG'+ str(report+1).zfill(3)+'.png'
+        image_id = 'IMG'+ str(report+1).zfill(3)
         
         # query = 'image ID: ' + report_id
         query = prompt_template+ 'image ID: '+  report_id

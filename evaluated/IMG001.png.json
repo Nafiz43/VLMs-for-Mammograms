@@ -1,6 +1,6 @@
 {
-    "IMG-ID": "IMG001.png",
-    "BREAST-COMPOSITION": "The breast tissue appears dense.",
-    "BIRADS": "BIRADS category is 2.",
-    "FINDINGS": "There are no significant findings in this image."
+    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/png_images/all_images/IMG001.png",
+    "BREAST-COMPOSITION": "Fatty",
+    "BIRADS": "2",
+    "FINDINGS": "No significant findings. Benign appearance."
 }

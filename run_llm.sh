@@ -32,4 +32,5 @@ python3 run_llm.py --model_name=mistral-nemo:latest --reports_to_process=-1
 
 python3 run_llm.py --model_name=llava:latest --reports_to_process=-1
 
+python3 run_llm.py --model_name=qwen2.5:latest --reports_to_process=-1
 
