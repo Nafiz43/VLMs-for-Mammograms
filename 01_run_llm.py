@@ -15,7 +15,7 @@ import re
 # source_file_dir = '/mnt/data1/raiyan/breast_cancer/datasets/dmid/png_images/all_images/IMG'
 
 source_file_dir =  '/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG'
-saving_dir = 'evaluated/llava_base/'
+saving_dir = '/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/llava_base/'
 
 temp = 0
 prompt_technique = "base"

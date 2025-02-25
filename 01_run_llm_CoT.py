@@ -17,7 +17,7 @@ import re
 source_file_dir =  '/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG'
 # saving_dir = 'evaluated/llava_CoT/'
 # saving_dir = 'evaluated/mistral_CoT/'
-saving_dir = 'evaluated/qwen_CoT/'
+saving_dir = '/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/qwen_CoT/'
 
 temp = 0
 prompt_technique = "base"
