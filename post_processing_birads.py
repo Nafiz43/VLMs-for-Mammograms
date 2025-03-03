@@ -5,7 +5,7 @@ import re
 def extract_integer(value):
     """Extracts the first integer found in a string."""
     match = re.search(r'\d+', value)
-    return int(match.group()) if match else None
+    return int(match.group()) if match else 1
 
 def process_json_files(repo_path):
     """Reads all JSON files in the repo, processes the BIRADS field, and updates the JSON files."""
@@ -26,7 +26,7 @@ def process_json_files(repo_path):
                     with open(file_path, 'w', encoding='utf-8') as f:
                         json.dump(data, f, indent=4)
                     
-                    print(f"Processed: {file_path}")
+                    # print(f"Processed: {file_path}")
                 except Exception as e:
                     print(f"Error processing {file_path}: {e}")
 
