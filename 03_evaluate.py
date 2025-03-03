@@ -26,8 +26,6 @@ master_df = pd.DataFrame()
 
 
 for t_dir in subdirs:
-
-
     ground_truth_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/GROUND-TRUTH-REPORTS"
     test_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/"+t_dir
 
@@ -196,23 +194,19 @@ for t_dir in subdirs:
 
 
     data = {
-        "Metric": ["`BIRADS` Precision", "`BIRADS` Recall", "`BIRADS` F1-Score", 
-                "`Findings` BERT", "`Findings` ROUGE-L", 
-                "`Breast-Composition` BERT", "`Breast-Composition` ROUGE-L"],
-        "Score": [
-            round(precision, 2),
-            round(recall, 2),
-            round(f1_score, 2),
-            round(findings_F1.mean().item(), 2),
-            round(findings_rouge_l_score / len(ground_truth_findings), 2),
-            round(breast_composition_F1.mean().item(), 2),
-            round(breast_composition_rouge_l_score / len(ground_truth_breast_composition), 2)
-        ]
+        "Model Name": t_dir,
+        "`BIRADS` Precision": [round(precision, 2)],
+        "`BIRADS` Recall": [round(recall, 2)],
+        "`BIRADS` F1-Score": [round(f1_score, 2)],
+        "`Findings` BERT": [round(findings_F1.mean().item(), 2)],
+        "`Findings` ROUGE-L": [round(findings_rouge_l_score / len(ground_truth_findings), 2)],
+        "`Breast-Composition` BERT": [round(breast_composition_F1.mean().item(), 2)],
+        "`Breast-Composition` ROUGE-L": [round(breast_composition_rouge_l_score / len(ground_truth_breast_composition), 2)]
     }
 
     df = pd.DataFrame(data)
     print(df)
     master_df = pd.concat([master_df, df], ignore_index=True)  # Resets the index
 
-master_df.to_csv('results/LLM_Performance.csv')
+master_df.to_csv('results/LLM_Performance.csv', index=False)
 print(master_df)
