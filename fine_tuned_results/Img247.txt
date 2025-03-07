@@ -1,0 +1,8 @@
+```json
+{
+    "IMG-ID": "Mammogram_001",
+    "BREAST-COMPOSITION": "Heterogeneously dense breast tissue",
+    "BIRADS": "4B",
+    "FINDINGS": "A small, oval-shaped, well-defined mass is noted in the upper outer quadrant of the right breast. The mass has a spiculated margin and associated calcifications. This finding is suspicious for malignancy and requires further evaluation with a biopsy."
+}
+```

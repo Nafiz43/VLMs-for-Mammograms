@@ -1,0 +1,8 @@
+```json
+{
+    "IMG-ID": "Mammogram_001",
+    "BREAST-COMPOSITION": "Heterogeneously dense breast tissue",
+    "BIRADS": "BI-RADS 3",
+    "FINDINGS": "The mammogram shows heterogeneously dense breast tissue. There are no palpable masses or calcifications noted. The patient should be monitored annually."
+}
+```

@@ -1,0 +1,8 @@
+```json
+{
+    "IMG-ID": "Mammogram_001",
+    "BREAST-COMPOSITION": "Heterogeneously dense breast tissue",
+    "BIRADS": "4B",
+    "FINDINGS": "A well-defined, oval-shaped mass located in the upper outer quadrant of the right breast. The mass has a spiculated margin and is associated with some architectural distortion. There are also scattered calcifications within the mass."
+}
+```

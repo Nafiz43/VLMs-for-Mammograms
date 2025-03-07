@@ -1,0 +1,8 @@
+```json
+{
+    "IMG-ID": "Mammogram_001",
+    "BREAST-COMPOSITION": "Heterogeneously dense",
+    "BIRADS": "3",
+    "FINDINGS": "The mammogram shows a heterogeneously dense breast composition. There are no palpable masses or calcifications noted. The image appears to be within normal limits for a screening mammogram."
+}
+```

@@ -1,0 +1,8 @@
+```json
+{
+    "IMG-ID": "Mammogram_001",
+    "BREAST-COMPOSITION": "Heterogeneously dense",
+    "BIRADS": "4B",
+    "FINDINGS": "There is an area of increased density in the upper outer quadrant of the right breast. This area appears irregular in shape and margin, which may be concerning. Further evaluation with additional imaging or biopsy is recommended."
+}
+```
