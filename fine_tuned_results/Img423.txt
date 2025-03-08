@@ -1,0 +1,8 @@
+```json
+{
+    "IMG-ID": "Mammogram_Lateral_View",
+    "BREAST-COMPOSITION": "Heterogeneously dense",
+    "BIRADS": "4B",
+    "FINDINGS": "There is an irregularly shaped mass located in the outer upper quadrant of the left breast. The mass has spiculated margins and associated calcifications. This finding is suspicious for malignancy and requires further evaluation with a biopsy."
+}
+```

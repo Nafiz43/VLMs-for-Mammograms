@@ -1,0 +1,8 @@
+```json
+{
+    "IMG-ID": "Mammogram_Lateral_View",
+    "BREAST-COMPOSITION": "Heterogeneously dense",
+    "BIRADS": "4B",
+    "FINDINGS": "The lateral view mammogram shows a cluster of microcalcifications in the upper outer quadrant of the left breast. These calcifications are irregularly shaped and distributed within a mass-like density. There is no evidence of architectural distortion or skin thickening. The findings are suspicious for malignancy and require further evaluation with a biopsy."
+}
+```

@@ -1,0 +1,8 @@
+```json
+{
+    "IMG-ID": "Mammogram_Lateral_View",
+    "BREAST-COMPOSITION": "Heterogeneously dense",
+    "BIRADS": "4B",
+    "FINDINGS": "The mammogram shows a suspicious mass in the upper outer quadrant of the left breast. The mass appears irregularly shaped and has spiculated margins. There are also associated calcifications present within the mass. Further evaluation with ultrasound and biopsy is recommended."
+}
+```
