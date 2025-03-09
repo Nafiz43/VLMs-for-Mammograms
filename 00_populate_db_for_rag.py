@@ -27,7 +27,11 @@ image_loader = ImageLoader()
 multimodal_ef = OpenCLIPEmbeddingFunction()
 
 # Create the collection, aka vector database. Or, if database already exist, then use it. Specify the model that we want to use to do the embedding.
-multimodal_db = chroma_client.get_or_create_collection(name="multimodal_db", embedding_function=multimodal_ef, data_loader=image_loader)
+multimodal_db = chroma_client.get_or_create_collection(name="multimodal_db_all", 
+                embedding_function=multimodal_ef, 
+                data_loader=image_loader
+                # persist_directory='/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/chromaDB'
+)
 
 
 
@@ -102,8 +106,8 @@ for img_path in glob(os.path.join(image_directory, '*.png')):
         processed_count += 1
         print(f"Indexed {processed_count}: {img_name}")
 
-        if processed_count == 5:
-            break  # Stop after 5 images for testing
+        # if processed_count == 5:
+        #     break  # Stop after 5 images for testing
 
 # Check data before adding to DB (Optional)
 print("IDs:", ids)
@@ -129,3 +133,52 @@ print(f"Number of indexes (embeddings) in the collection: {count}")
 
 # multimodal_db.persist('/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/chromaDB')
 
+
+
+
+# Perform the search for a test image
+
+
+img_path = "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG001.png"  # Change to your image path
+image = Image.open(img_path).convert("RGB")
+image = preprocess(image).unsqueeze(0)  # Add batch dimension
+
+# Move to GPU if available
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model = model.to(device)
+image = image.to(device)
+
+# Generate image embedding
+with torch.no_grad():
+    image_embedding = model.encode_image(image)
+
+# Convert to NumPy array if needed
+image_embedding_np = image_embedding.cpu().numpy()
+
+# print("Image embedding shape:", image_embedding_np.shape)
+
+# print(image_embedding)
+
+print()
+
+# print(image_embedding_np)
+
+
+
+
+results = multimodal_db.query(
+    query_embeddings=image_embedding_np,  # Pass the query embedding as a list
+    n_results=3  # Number of similar results to return
+)
+
+# Print the results
+# print("Search results:")
+# for result in results:
+#     print(f"ID: {result['id']}")
+#     print(f"URI: {result['uri']}")
+#     print(f"Metadata: {result['metadata']}")
+#     print(f"Score: {result['score']}")  # Similarity score
+#     print("-" * 50)
+# 
+
+print(results)
