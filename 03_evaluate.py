@@ -26,6 +26,7 @@ master_df = pd.DataFrame()
 
 
 for t_dir in subdirs:
+    print(t_dir)
     ground_truth_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/GROUND-TRUTH-REPORTS"
     test_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/"+t_dir
 

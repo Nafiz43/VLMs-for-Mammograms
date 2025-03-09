@@ -1,8 +1,0 @@
-```json
-{
-    "IMG-ID": "Mammogram_Lateral",
-    "BREAST-COMPOSITION": "Heterogeneously dense",
-    "BIRADS": "4B",
-    "FINDINGS": "There is an area of increased density in the upper outer quadrant of the left breast. The margins are somewhat irregular, and there is associated spiculated enhancement. This finding is concerning for a malignancy and requires further evaluation with a biopsy."
-}
-```

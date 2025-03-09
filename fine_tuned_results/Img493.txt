@@ -1,8 +1,0 @@
-```json
-{
-    "IMG-ID": "Mammogram_Lateral_View",
-    "BREAST-COMPOSITION": "Heterogeneously dense breast tissue",
-    "BIRADS": "4B",
-    "FINDINGS": "Mass detected in the lower outer quadrant of the left breast. The mass appears irregularly shaped and has spiculated margins. There are associated calcifications within the mass. Further evaluation with ultrasound and biopsy is recommended."
-}
-```

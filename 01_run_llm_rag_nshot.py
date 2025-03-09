@@ -11,8 +11,21 @@ import random
 import os
 import json
 import re
+from glob import glob
+from PIL import Image
+import chromadb
+from chromadb.utils.embedding_functions import OpenCLIPEmbeddingFunction
+from chromadb.utils.data_loaders import ImageLoader
+from matplotlib import pyplot as plt
+from torchvision import transforms
+import torch
+import open_clip
 
 # source_file_dir = '/mnt/data1/raiyan/breast_cancer/datasets/dmid/png_images/all_images/IMG'
+
+chroma_client = chromadb.PersistentClient(path="./chroma_db")  # Persistent storage
+multimodal_db = chroma_client.get_or_create_collection(name="image_embeddings")
+
 
 source_file_dir =  '/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG'
 saving_dir = 'evaluated/qwen_nshot/'
@@ -29,28 +42,78 @@ Please follow the below given JSON format for your response:
     "FINDINGS": "<Summary of any abnormalities, calcifications, or other observations>"
 }
 
-Here are some examples of doctor annoted reports to guide you:
-Example 1:
-{
-    "IMG-ID": "IMG001.png",
-    "BREAST-COMPOSITION": "Predominantly fibro fatty breast parenchyma (ACR B)",
-    "BIRADS": "3",
-    "FINDINGS": "Small well defined soft nodular opacity- benign lesion (BIRADS-3). Benign and vascular calcifications. Skin and nipple - no abnormality. No axillary adenopathy"
-}
-Example 2:
-{
-    "IMG-ID": "IMG002.png",
-    "BREAST-COMPOSITION": "Fibro fatty with scattered glandular breast parenchyma (ACR B)",
-    "BIRADS": "1",
-    "FINDINGS": "No abnormal soft opacity. Vascular calcifications. Skin and nipple - no abnormality. Benign looking axillary adenopathy"
-}
+Here are some examples of doctor annotated reports to guide you:
+
+{example_1}
+{example_2}
+{example_3}
+
 """
+
+global example_1
+global example_2
+global example_3
 
 
 allowable_models = ["meditron:latest", "jyan1/paligemma-mix-224:latest", "qwen2.5:latest", "medllama2:latest", "llama3.1:latest", "gemma:7b-instruct", "mistral:7b-instruct", "mixtral:8x7b-instruct-v0.1-q4_K_M", 
          "llama2:latest", "llama2:70b-chat-q4_K_M", "llama2:13b-chat", "llama3.8b-instruct-q4_K_M", "llama3.3:70b", "llama3.2:latest", "meditron:70b", "tinyllama", "mistral", "mistral-nemo:latest", 
           'vanilj/llama-3-8b-instruct-32k-v0.1:latest', "mistrallite:latest", "mistral-nemo:12b-instruct-2407-q4_K_M", "llama3.2:3b-instruct-q4_K_M", "deepseek-r1:1.5b",
           "deepseek-r1:7b", "deepseek-r1:70b", "qordmlwls/llama3.1-medical:latest", "mixtral:latest","llava:latest"]
+
+
+# Load OpenCLIP model
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model = open_clip.create_model("ViT-B/32", pretrained="laion2b_s34b_b79k").to(device)
+
+
+# Preprocessing for OpenCLIP (manual transform)
+preprocess = transforms.Compose([
+    transforms.Resize((224, 224)),  # Resize to model input size
+    transforms.ToTensor(),
+    transforms.Normalize(mean=(0.481, 0.457, 0.408), std=(0.268, 0.261, 0.275))  # CLIP normalization
+])
+
+# Function to generate image embeddings
+def get_image_embedding(image):
+    image = preprocess(image).unsqueeze(0).to(device)
+    with torch.no_grad():
+        embedding = model.encode_image(image)
+    return embedding.cpu().numpy().flatten().tolist()  # Convert to list of floats
+
+
+# Function to retrieve top 3 similar images from ChromaDB
+def retrieve_similar_images(query_image_path):
+    # Load and preprocess the query image
+    query_image = Image.open(query_image_path).convert("RGB")
+    query_embedding = get_image_embedding(query_image)
+    
+    # Query ChromaDB for the most similar embeddings
+    results = multimodal_db.query(
+        query_embeddings=[query_embedding],  # Query using the passed image embedding
+        n_results=3  # Retrieve top 3 results
+    )
+    
+    # # Inspect and log the full results to understand their structure
+    # print("Full Query Results:")
+    # print(results)
+    
+    # Extracting the IDs and metadata and storing them in the required format.
+    formatted_data = []
+
+    for img_id, metadata in zip(results['ids'][0], results['metadatas'][0]):
+        formatted_entry = {
+            "IMG-ID": img_id,
+            "BREAST-COMPOSITION": metadata['Breast_Composition'].replace('\n', ' ').strip(),
+            "BIRADS": str(metadata['BIRADS']),
+            "FINDINGS": metadata['Findings'].replace('\n', ' ').strip()
+        }
+        formatted_data.append(formatted_entry)
+        
+    example_1=formatted_data[0]
+    example_2=formatted_data[1]
+    example_3=formatted_data[2]
+    
+
 
 
 # Define the expected JSON schema using Pydantic
@@ -137,19 +200,6 @@ def main(model_name, reports_to_process):
         logging.getLogger().setLevel(logging.ERROR)  # Suppress INFO logs
         response = ollama.invoke(query)
         print(response)
-
-        ###the following is a dummy response for testing ###
-
-        # dummy_data = {
-        #     "IMG_ID": "image_001.jpg",
-        #     "Breast_Composition": "Dense tissue with scattered fibroglandular elements",
-        #     "BIRADS": "2",
-        #     "Findings": "No significant abnormalities or calcifications. Normal breast tissue."
-        # }
-        # dummy_data_str = json.dumps(dummy_data, indent=4)
-
-        # response =dummy_data_str+"abdc"
-        ### dummy response processing ENDS ###
 
         json_match = re.search(r"\{.*\}", response, re.DOTALL)
         if json_match in [None, ""]:

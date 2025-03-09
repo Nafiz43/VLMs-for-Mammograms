@@ -1,8 +1,0 @@
-```json
-{
-    "IMG-ID": "Mammogram_Lateral",
-    "BREAST-COMPOSITION": "Heterogeneously dense",
-    "BIRADS": "4B",
-    "FINDINGS": "The mammogram shows a heterogeneously dense breast. There are areas of increased density noted in the upper outer quadrant of the left breast. These areas do not have the typical spiculated appearance seen in malignancies but warrant further evaluation due to their size and location. A biopsy is recommended to determine the nature of these densities."
-}
-```

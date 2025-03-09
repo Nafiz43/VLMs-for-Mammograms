@@ -1,8 +1,0 @@
-```json
-{
-    "IMG-ID": "Mammogram_001",
-    "BREAST-COMPOSITION": "Heterogeneously dense",
-    "BIRADS": "4B",
-    "FINDINGS": "The mammogram shows a cluster of microcalcifications in the upper outer quadrant of the right breast. These calcifications are irregularly shaped and distributed in a linear pattern. There is no mass or architectural distortion noted. The patient should undergo a biopsy to determine the nature of these calcifications."
-}
-```

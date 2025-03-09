@@ -1,8 +1,0 @@
-```json
-{
-    "IMG-ID": "Mammogram_Lateral_View",
-    "BREAST-COMPOSITION": "Heterogeneously dense breast tissue",
-    "BIRADS": "BI-RADS 3",
-    "FINDINGS": "The mammogram shows heterogeneously dense breast tissue. There are no palpable masses or architectural distortions noted. The image demonstrates increased breast density which can obscure small lesions. A short-term follow-up is recommended to monitor for any changes."
-}
-```
