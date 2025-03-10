@@ -17,7 +17,7 @@ import re
 source_file_dir =  '/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG'
 # saving_dir = 'evaluated/llava_CoT/'
 # saving_dir = 'evaluated/mistral_CoT/'
-saving_dir = '/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/qwen_CoT/'
+# saving_dir = '/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/qwen_CoT/'
 
 temp = 0
 prompt_technique = "base"
@@ -209,7 +209,11 @@ def main(model_name, reports_to_process):
             json_match = fix_json(json_match.group(0))
         
         print(json_match)
-        global saving_dir
+        # global saving_dir
+        #constructing the saving dir here
+        saving_dir = 'evaluated/'+model_name+'_nshot_rag/'
+        print(saving_dir)
+
         image_saving_dir = saving_dir +image_id + '.json'
 
         os.makedirs(os.path.dirname(image_saving_dir), exist_ok=True)

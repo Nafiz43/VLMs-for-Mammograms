@@ -1,0 +1,15 @@
+{
+    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG163.png",
+    "BREAST-COMPOSITION": "ACR B (Scattered areas of fibroglandular density)",
+    "BIRADS": 4,
+    "FINDINGS": [
+        {
+            "Type": "CIRC",
+            "Description": "A well-defined, round mass with clear borders in the upper outer quadrant. No significant architectural distortion or spiculation observed."
+        },
+        {
+            "Type": "CALC",
+            "Description": "Multiple small calcifications noted in the lower inner quadrant, some of which are clustered and may require further evaluation."
+        }
+    ]
+}

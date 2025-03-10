@@ -1,0 +1,15 @@
+{
+    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG320.png",
+    "BREAST-COMPOSITION": "Fatty with scattered fibroglandular densities",
+    "BIRADS": 4,
+    "FINDINGS": [
+        {
+            "TYPE": "Calcifications",
+            "DESCRIPTION": "Fine granular calcifications in the upper outer quadrant of the left breast. No mass or architectural distortion observed."
+        },
+        {
+            "TYPE": "Density",
+            "DESCRIPTION": "No significant increase in density noted, with normal background parenchymal pattern."
+        }
+    ]
+}

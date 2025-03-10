@@ -1,0 +1,8 @@
+```json
+{
+    "IMG-ID": "Mammogram_001",
+    "BREAST-COMPOSITION": "Heterogeneously dense",
+    "BIRADS": "3",
+    "FINDINGS": "The mammogram shows a heterogeneously dense breast. There are no significant findings noted. The patient should be monitored with short-term follow-up to ensure stability."
+}
+```

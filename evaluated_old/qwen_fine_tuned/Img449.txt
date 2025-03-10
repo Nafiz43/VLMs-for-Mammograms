@@ -1,0 +1,8 @@
+```json
+{
+    "IMG-ID": "Mammogram_Lateral_View",
+    "BREAST-COMPOSITION": "Heterogeneously dense breast tissue",
+    "BIRADS": "BI-RADS 3",
+    "FINDINGS": "The mammogram shows a heterogeneously dense breast with no obvious masses, calcifications, or architectural distortions. The findings are consistent with a benign lesion, and a short-term follow-up is recommended to confirm stability."
+}
+```

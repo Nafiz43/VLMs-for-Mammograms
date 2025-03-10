@@ -1,0 +1,8 @@
+```json
+{
+    "IMG-ID": "Mammogram_Lateral_View",
+    "BREAST-COMPOSITION": "Heterogeneously dense breast tissue",
+    "BIRADS": "BI-RADS 3",
+    "FINDINGS": "No significant findings observed. The image shows a heterogeneously dense breast with no palpable masses or suspicious areas noted."
+}
+```

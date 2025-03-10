@@ -1,0 +1,8 @@
+```json
+{
+    "IMG-ID": "Mammogram_001",
+    "BREAST-COMPOSITION": "Heterogeneously dense",
+    "BIRADS": "4B",
+    "FINDINGS": "The mammogram shows a cluster of microcalcifications in the upper outer quadrant of the right breast. These calcifications are irregularly distributed and have a spiculated appearance. There is also a mass-like density noted adjacent to the calcifications. Further evaluation by a radiologist is recommended."
+}
+```

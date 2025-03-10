@@ -1,0 +1,8 @@
+```json
+{
+    "IMG-ID": "Mammogram_001",
+    "BREAST-COMPOSITION": "Heterogeneously dense",
+    "BIRADS": "4B",
+    "FINDINGS": "Mass detected in the upper outer quadrant of the right breast. The mass appears oval-shaped, with a density that is higher than the surrounding breast tissue. There are no associated calcifications or skin thickening noted. Further evaluation by a radiologist is recommended."
+}
+```

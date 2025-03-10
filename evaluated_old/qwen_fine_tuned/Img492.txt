@@ -1,0 +1,8 @@
+```json
+{
+    "IMG-ID": "Mammogram_001",
+    "BREAST-COMPOSITION": "Heterogeneously dense breast tissue",
+    "BIRADS": "4B",
+    "FINDINGS": "A well-defined, oval-shaped mass with spiculated margins is observed in the upper outer quadrant of the right breast. The mass appears to be slightly heterogeneous in density compared to surrounding breast tissue. There are no associated calcifications noted."
+}
+```

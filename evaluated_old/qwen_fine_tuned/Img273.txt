@@ -1,0 +1,8 @@
+```json
+{
+    "IMG-ID": "Mammogram_001",
+    "BREAST-COMPOSITION": "Heterogeneously dense",
+    "BIRADS": "3",
+    "FINDINGS": "The mammogram shows heterogeneously dense breast tissue. There are no palpable masses or calcifications noted. The image requires short-term follow-up to confirm stability."
+}
+```

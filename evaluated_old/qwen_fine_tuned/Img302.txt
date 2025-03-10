@@ -1,0 +1,8 @@
+```json
+{
+    "IMG-ID": "Mammogram_Lateral_View",
+    "BREAST-COMPOSITION": "Heterogeneously dense breast tissue",
+    "BIRADS": "4B",
+    "FINDINGS": "The mammogram shows a focal area of increased density in the lower outer quadrant of the left breast. This area has a spiculated margin and is concerning for a potential malignancy. Further evaluation with ultrasound and biopsy is recommended."
+}
+```

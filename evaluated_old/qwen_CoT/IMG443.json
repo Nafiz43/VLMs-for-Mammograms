@@ -1,0 +1,15 @@
+{
+    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG443.png",
+    "BREAST-COMPOSITION": "ACR C (Heterogeneously dense)",
+    "BIRADS": 4,
+    "FINDINGS": [
+        {
+            "Type": "SPIC (Spiculated Masses)",
+            "Description": "Irregular mass with spiky, radiating edges in the upper outer quadrant. Highly suspicious for malignancy."
+        },
+        {
+            "Type": "ARCH (Architectural Distortion)",
+            "Description": "Distorted breast tissue structure without a clearly defined mass in the same area as the spiculated mass. Further imaging or biopsy is recommended."
+        }
+    ]
+}

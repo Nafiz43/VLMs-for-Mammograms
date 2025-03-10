@@ -121,7 +121,7 @@ for t_dir in subdirs:
     plt.ylabel("True Labels")
     plt.title("Confusion Matrix")
     image_save_dir = test_dir.replace('/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/', 'results/')
-    plt.savefig(image_save_dir)
+    plt.savefig(image_save_dir+".png")
     plt.show()
 
     # print(ground_truth_findings[0])

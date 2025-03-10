@@ -1,0 +1,17 @@
+{
+    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG283.png",
+    "BREAST-COMPOSITION": "Fatty with scattered fibroglandular densities",
+    "BIRADS": 4,
+    "FINDINGS": [
+        {
+            "TYPE": "Calcifications",
+            "DESCRIPTION": "Fine granular calcifications in the upper outer quadrant of the left breast.",
+            "LOCATION": "Upper outer quadrant, left breast"
+        },
+        {
+            "TYPE": "Mass",
+            "DESCRIPTION": "A small, well-defined mass with irregular margins located in the lower inner quadrant of the right breast. The mass measures approximately 1 cm in diameter.",
+            "LOCATION": "Lower inner quadrant, right breast"
+        }
+    ]
+}
