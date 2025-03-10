@@ -1,0 +1,282 @@
+Received model_name: qwen2.5:latest
+Received value for reports_to_process: 3
+Processing only 3 reports
+/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG001.png
+
+I will provide you with a mammogram image. Your task is to analyze the image and extract key diagnostic information, including breast composition, BIRADS category, and any significant findings. Present the output in a structured JSON format with the following keys: IMG_ID, Breast_Composition, BIRADS, and Findings. Ensure the response is precise, medically relevant, and well-organized.
+Please follow the below given JSON format for your response:
+{
+    "IMG-ID": "<Image_Filename>",
+    "BREAST-COMPOSITION": "<Description of breast tissue composition>",
+    "BIRADS": "<BIRADS category; any values between 1 to 6. BI-RADS category is a standardized classification for breast imaging findings, ranging from 1 to 6, where: BI-RADS 1 indicates a negative result with no abnormalities; BI-RADS 2 signifies benign findings with no suspicion of cancer; BI-RADS 3 suggests a benign lesion, requiring short-term follow-up to confirm stability; BI-RADS 4 represents a suspicious abnormality needing biopsy, further divided into 4A (low suspicion), 4B (moderate suspicion), and 4C (high suspicion); BI-RADS 5 is highly suggestive of malignancy with a high probability of cancer; and BI-RADS 6 confirms a known malignancy with a biopsy-proven cancer diagnosis.",
+    "FINDINGS": "<Summary of any abnormalities, calcifications, or other observations>"
+}
+
+image ID: /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG001.png  /n  Here are some examples of doctor annoted reports to guide you: 
+            Example :1
+            {
+            "IMG-ID": /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG141.png,
+            "BREAST-COMPOSITION": "fibro glandular breast parenchyma (ACR D).",
+            "BIRADS": "2",
+            "FINDINGS": "No abnormal soft opacity seen. 
+skin, nipple, and pectoral muscle appear normal.
+benign looking calcifications seen in the anterior aspect of the lower quadrant and retroareolar region of breast.(BIRADS 2)
+benign-looking axillary adenopathy."
+            }
+            
+            Example :2
+            {
+            "IMG-ID": /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG043.png,
+            "BREAST-COMPOSITION": "Fibro glandular breast parenchyma seen (ACR B).",
+            "BIRADS": "4",
+            "FINDINGS": "irregular soft opacity with spiculated margin seen in the lower 
+quadrant of the breast suggests high suspicious malignant 
+lesion (BIRADS 4c)
+Skin, nipple, and pectoral muscle appear normal.
+No axillary adenopathy."
+            }
+            
+{'IMG-ID': '/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG001.png', 'BREAST-COMPOSITION': 'Fibro glandular breast parenchyma (ACR B).', 'BIRADS': '3', 'FINDINGS': 'Benign-appearing calcifications seen in the upper outer quadrant of the breast. No suspicious masses or architectural distortions noted. Short-term follow-up recommended for stability.'}
+Data has been written to evaluated/test/IMG001.json
+/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG002.png
+
+I will provide you with a mammogram image. Your task is to analyze the image and extract key diagnostic information, including breast composition, BIRADS category, and any significant findings. Present the output in a structured JSON format with the following keys: IMG_ID, Breast_Composition, BIRADS, and Findings. Ensure the response is precise, medically relevant, and well-organized.
+Please follow the below given JSON format for your response:
+{
+    "IMG-ID": "<Image_Filename>",
+    "BREAST-COMPOSITION": "<Description of breast tissue composition>",
+    "BIRADS": "<BIRADS category; any values between 1 to 6. BI-RADS category is a standardized classification for breast imaging findings, ranging from 1 to 6, where: BI-RADS 1 indicates a negative result with no abnormalities; BI-RADS 2 signifies benign findings with no suspicion of cancer; BI-RADS 3 suggests a benign lesion, requiring short-term follow-up to confirm stability; BI-RADS 4 represents a suspicious abnormality needing biopsy, further divided into 4A (low suspicion), 4B (moderate suspicion), and 4C (high suspicion); BI-RADS 5 is highly suggestive of malignancy with a high probability of cancer; and BI-RADS 6 confirms a known malignancy with a biopsy-proven cancer diagnosis.",
+    "FINDINGS": "<Summary of any abnormalities, calcifications, or other observations>"
+}
+
+image ID: /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG002.png  /n  Here are some examples of doctor annoted reports to guide you: 
+            Example :1
+            {
+            "IMG-ID": /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG245.png,
+            "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR C).",
+            "BIRADS": "1",
+            "FINDINGS": "No abnormal soft opacity or microcalcification seen. 
+
+skin, nipple, and pectoral muscle appear normal.
+
+small benign-looking axillary adenopathy."
+            }
+            
+            Example :2
+            {
+            "IMG-ID": /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG052.png,
+            "BREAST-COMPOSITION": "Fibroglandular breast parenchyma (ACR C).",
+            "BIRADS": "1",
+            "FINDINGS": "No abnormal solid lesion
+benign-looking axillary adenopathy
+Skin, nipple, and pectoral muscle appear normal.
+no abnormal calcification."
+            }
+            
+{'IMG-ID': '/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG002.png', 'BREAST-COMPOSITION': 'Fibro fatty and glandular breast parenchyma (ACR C).', 'BIRADS': '3', 'FINDINGS': 'A 5mm benign-looking calcification is noted in the upper outer quadrant. No abnormal solid lesions or masses are identified. Skin, nipple, and pectoral muscle appear normal.'}
+Data has been written to evaluated/test/IMG002.json
+/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG003.png
+
+I will provide you with a mammogram image. Your task is to analyze the image and extract key diagnostic information, including breast composition, BIRADS category, and any significant findings. Present the output in a structured JSON format with the following keys: IMG_ID, Breast_Composition, BIRADS, and Findings. Ensure the response is precise, medically relevant, and well-organized.
+Please follow the below given JSON format for your response:
+{
+    "IMG-ID": "<Image_Filename>",
+    "BREAST-COMPOSITION": "<Description of breast tissue composition>",
+    "BIRADS": "<BIRADS category; any values between 1 to 6. BI-RADS category is a standardized classification for breast imaging findings, ranging from 1 to 6, where: BI-RADS 1 indicates a negative result with no abnormalities; BI-RADS 2 signifies benign findings with no suspicion of cancer; BI-RADS 3 suggests a benign lesion, requiring short-term follow-up to confirm stability; BI-RADS 4 represents a suspicious abnormality needing biopsy, further divided into 4A (low suspicion), 4B (moderate suspicion), and 4C (high suspicion); BI-RADS 5 is highly suggestive of malignancy with a high probability of cancer; and BI-RADS 6 confirms a known malignancy with a biopsy-proven cancer diagnosis.",
+    "FINDINGS": "<Summary of any abnormalities, calcifications, or other observations>"
+}
+
+image ID: /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG003.png  /n  Here are some examples of doctor annoted reports to guide you: 
+            Example :1
+            {
+            "IMG-ID": /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG003.png,
+            "BREAST-COMPOSITION": "Predominantly fibro fatty breast parenchyma (ACR A)",
+            "BIRADS": "1",
+            "FINDINGS": "No abnormal soft opacity
+Skin and nipple - no abnormality"
+            }
+            
+            Example :2
+            {
+            "IMG-ID": /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG163.png,
+            "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR A).",
+            "BIRADS": "1",
+            "FINDINGS": "No abnormal soft opacity or microcalcification seen. 
+skin and nipple appear normal.
+Benign vascular calcification seen."
+            }
+            
+{'IMG-ID': '/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG003.png', 'BREAST-COMPOSITION': 'Predominantly fibroglandular breast parenchyma (ACR A)', 'BIRADS': '2', 'FINDINGS': 'No abnormal soft tissue masses or calcifications observed. Skin and nipple appear normal.'}
+Data has been written to evaluated/test/IMG003.json
+
+Total Reports Processed 3
+Received model_name: qwen2.5:latest
+Received value for reports_to_process: 3
+Processing only 3 reports
+/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG001.png
+
+I will provide you with a mammogram image. Your task is to analyze the image and extract key diagnostic information, including breast composition, BIRADS category, and any significant findings. Present the output in a structured JSON format with the following keys: IMG_ID, Breast_Composition, BIRADS, and Findings. Ensure the response is precise, medically relevant, and well-organized.
+Please follow the below given JSON format for your response:
+{
+    "IMG-ID": "<Image_Filename>",
+    "BREAST-COMPOSITION": "<Description of breast tissue composition>",
+    "BIRADS": "<BIRADS category; any values between 1 to 6. BI-RADS category is a standardized classification for breast imaging findings, ranging from 1 to 6, where: BI-RADS 1 indicates a negative result with no abnormalities; BI-RADS 2 signifies benign findings with no suspicion of cancer; BI-RADS 3 suggests a benign lesion, requiring short-term follow-up to confirm stability; BI-RADS 4 represents a suspicious abnormality needing biopsy, further divided into 4A (low suspicion), 4B (moderate suspicion), and 4C (high suspicion); BI-RADS 5 is highly suggestive of malignancy with a high probability of cancer; and BI-RADS 6 confirms a known malignancy with a biopsy-proven cancer diagnosis.",
+    "FINDINGS": "<Summary of any abnormalities, calcifications, or other observations>"
+}
+
+image ID: /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG001.png  /n  Here are some examples of doctor annoted reports to guide you: 
+            Example :1
+            {
+            "IMG-ID": /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG141.png,
+            "BREAST-COMPOSITION": "fibro glandular breast parenchyma (ACR D).",
+            "BIRADS": "2",
+            "FINDINGS": "No abnormal soft opacity seen. 
+skin, nipple, and pectoral muscle appear normal.
+benign looking calcifications seen in the anterior aspect of the lower quadrant and retroareolar region of breast.(BIRADS 2)
+benign-looking axillary adenopathy."
+            }
+            
+            Example :2
+            {
+            "IMG-ID": /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG043.png,
+            "BREAST-COMPOSITION": "Fibro glandular breast parenchyma seen (ACR B).",
+            "BIRADS": "4",
+            "FINDINGS": "irregular soft opacity with spiculated margin seen in the lower 
+quadrant of the breast suggests high suspicious malignant 
+lesion (BIRADS 4c)
+Skin, nipple, and pectoral muscle appear normal.
+No axillary adenopathy."
+            }
+            
+Given that I cannot directly analyze images, I will provide a structured JSON response based on hypothetical findings. Please replace the image ID with your actual image filename.
+
+```json
+{
+    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG001.png",
+    "BREAST-COMPOSITION": "Fibro glandular breast parenchyma (ACR B).",
+    "BIRADS": "3",
+    "FINDINGS": "Benign-appearing calcifications seen in the upper outer quadrant of the breast. No suspicious masses or architectural distortions noted. Short-term follow-up recommended for stability."
+}
+```
+
+In this example:
+- **IMG-ID**: The image filename.
+- **BREAST-COMPOSITION**: Describes the composition of the breast tissue as fibro glandular, which is common in premenopausal women (ACR B).
+- **BIRADS**: Indicates a BI-RADS category 3, suggesting a benign lesion that requires short-term follow-up to confirm stability.
+- **FINDINGS**: Notes the presence of benign-looking calcifications and states there are no suspicious masses or architectural distortions. Short-term follow-up is recommended.
+
+Please replace the findings with actual observations from your image analysis.
+{'IMG-ID': '/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG001.png', 'BREAST-COMPOSITION': 'Fibro glandular breast parenchyma (ACR B).', 'BIRADS': '3', 'FINDINGS': 'Benign-appearing calcifications seen in the upper outer quadrant of the breast. No suspicious masses or architectural distortions noted. Short-term follow-up recommended for stability.'}
+Data has been written to evaluated/test/IMG001.json
+/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG002.png
+
+I will provide you with a mammogram image. Your task is to analyze the image and extract key diagnostic information, including breast composition, BIRADS category, and any significant findings. Present the output in a structured JSON format with the following keys: IMG_ID, Breast_Composition, BIRADS, and Findings. Ensure the response is precise, medically relevant, and well-organized.
+Please follow the below given JSON format for your response:
+{
+    "IMG-ID": "<Image_Filename>",
+    "BREAST-COMPOSITION": "<Description of breast tissue composition>",
+    "BIRADS": "<BIRADS category; any values between 1 to 6. BI-RADS category is a standardized classification for breast imaging findings, ranging from 1 to 6, where: BI-RADS 1 indicates a negative result with no abnormalities; BI-RADS 2 signifies benign findings with no suspicion of cancer; BI-RADS 3 suggests a benign lesion, requiring short-term follow-up to confirm stability; BI-RADS 4 represents a suspicious abnormality needing biopsy, further divided into 4A (low suspicion), 4B (moderate suspicion), and 4C (high suspicion); BI-RADS 5 is highly suggestive of malignancy with a high probability of cancer; and BI-RADS 6 confirms a known malignancy with a biopsy-proven cancer diagnosis.",
+    "FINDINGS": "<Summary of any abnormalities, calcifications, or other observations>"
+}
+
+image ID: /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG002.png  /n  Here are some examples of doctor annoted reports to guide you: 
+            Example :1
+            {
+            "IMG-ID": /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG245.png,
+            "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR C).",
+            "BIRADS": "1",
+            "FINDINGS": "No abnormal soft opacity or microcalcification seen. 
+
+skin, nipple, and pectoral muscle appear normal.
+
+small benign-looking axillary adenopathy."
+            }
+            
+            Example :2
+            {
+            "IMG-ID": /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG052.png,
+            "BREAST-COMPOSITION": "Fibroglandular breast parenchyma (ACR C).",
+            "BIRADS": "1",
+            "FINDINGS": "No abnormal solid lesion
+benign-looking axillary adenopathy
+Skin, nipple, and pectoral muscle appear normal.
+no abnormal calcification."
+            }
+            
+Given the constraints of this environment, I cannot directly analyze an image. However, based on your instructions and examples, I can provide a structured JSON response as if the analysis had been performed.
+
+Here is a sample output for the provided `IMG002.png`:
+
+```json
+{
+    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG002.png",
+    "BREAST-COMPOSITION": "Fibro fatty and glandular breast parenchyma (ACR C).",
+    "BIRADS": "3",
+    "FINDINGS": "A 5mm benign-looking calcification is noted in the upper outer quadrant. No abnormal solid lesions or masses are identified. Skin, nipple, and pectoral muscle appear normal."
+}
+```
+
+In this example:
+- **IMG-ID**: The unique identifier for the image.
+- **BREAST-COMPOSITION**: Describes the composition of the breast tissue based on ACR (American College of Radiology) classification.
+- **BIRADS**: Indicates the BI-RADS category, which in this case is 3, suggesting a benign lesion that requires short-term follow-up to confirm stability.
+- **FINDINGS**: Summarizes any abnormalities or significant observations noted during the analysis.
+
+Please replace the findings and composition details with actual diagnostic information from your image analysis.
+{'IMG-ID': '/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG002.png', 'BREAST-COMPOSITION': 'Fibro fatty and glandular breast parenchyma (ACR C).', 'BIRADS': '3', 'FINDINGS': 'A 5mm benign-looking calcification is noted in the upper outer quadrant. No abnormal solid lesions or masses are identified. Skin, nipple, and pectoral muscle appear normal.'}
+Data has been written to evaluated/test/IMG002.json
+/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG003.png
+
+I will provide you with a mammogram image. Your task is to analyze the image and extract key diagnostic information, including breast composition, BIRADS category, and any significant findings. Present the output in a structured JSON format with the following keys: IMG_ID, Breast_Composition, BIRADS, and Findings. Ensure the response is precise, medically relevant, and well-organized.
+Please follow the below given JSON format for your response:
+{
+    "IMG-ID": "<Image_Filename>",
+    "BREAST-COMPOSITION": "<Description of breast tissue composition>",
+    "BIRADS": "<BIRADS category; any values between 1 to 6. BI-RADS category is a standardized classification for breast imaging findings, ranging from 1 to 6, where: BI-RADS 1 indicates a negative result with no abnormalities; BI-RADS 2 signifies benign findings with no suspicion of cancer; BI-RADS 3 suggests a benign lesion, requiring short-term follow-up to confirm stability; BI-RADS 4 represents a suspicious abnormality needing biopsy, further divided into 4A (low suspicion), 4B (moderate suspicion), and 4C (high suspicion); BI-RADS 5 is highly suggestive of malignancy with a high probability of cancer; and BI-RADS 6 confirms a known malignancy with a biopsy-proven cancer diagnosis.",
+    "FINDINGS": "<Summary of any abnormalities, calcifications, or other observations>"
+}
+
+image ID: /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG003.png  /n  Here are some examples of doctor annoted reports to guide you: 
+            Example :1
+            {
+            "IMG-ID": /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG003.png,
+            "BREAST-COMPOSITION": "Predominantly fibro fatty breast parenchyma (ACR A)",
+            "BIRADS": "1",
+            "FINDINGS": "No abnormal soft opacity
+Skin and nipple - no abnormality"
+            }
+            
+            Example :2
+            {
+            "IMG-ID": /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG163.png,
+            "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR A).",
+            "BIRADS": "1",
+            "FINDINGS": "No abnormal soft opacity or microcalcification seen. 
+skin and nipple appear normal.
+Benign vascular calcification seen."
+            }
+            
+To provide a structured JSON response based on the given format, I would need to analyze the mammogram image you've provided. Since I cannot directly access or view images, I will fabricate an example analysis for demonstration purposes.
+
+Here is a fabricated example of how the output might look:
+
+```json
+{
+    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG003.png",
+    "BREAST-COMPOSITION": "Predominantly fibroglandular breast parenchyma (ACR A)",
+    "BIRADS": "2",
+    "FINDINGS": "No abnormal soft tissue masses or calcifications observed. Skin and nipple appear normal."
+}
+```
+
+In this example:
+- **IMG-ID**: The unique identifier for the image.
+- **BREAST-COMPOSITION**: Describes the predominant type of breast tissue, which in this case is predominantly fibroglandular (ACR A).
+- **BIRADS**: Indicates a benign finding with no suspicion of cancer (BI-RADS 2).
+- **FINDINGS**: Summarizes that there are no abnormal masses or calcifications and that the skin and nipple appear normal.
+
+For an actual analysis, you would need to provide the image for review. If you have access to the image and can describe it in detail, I can help craft a more accurate response based on your description.
+{'IMG-ID': '/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG003.png', 'BREAST-COMPOSITION': 'Predominantly fibroglandular breast parenchyma (ACR A)', 'BIRADS': '2', 'FINDINGS': 'No abnormal soft tissue masses or calcifications observed. Skin and nipple appear normal.'}
+Data has been written to evaluated/test/IMG003.json
+
+Total Reports Processed 3

@@ -28,7 +28,7 @@ multimodal_db = chroma_client.get_or_create_collection(name="multimodal_db_all")
 
 
 source_file_dir =  '/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG'
-saving_dir = 'evaluated/qwen_nshot/'
+saving_dir = 'evaluated/qwen_n_shot_rag/'
 
 temp = 0
 prompt_technique = "base"
@@ -41,8 +41,6 @@ Please follow the below given JSON format for your response:
     "BIRADS": "<BIRADS category; any values between 1 to 6. BI-RADS category is a standardized classification for breast imaging findings, ranging from 1 to 6, where: BI-RADS 1 indicates a negative result with no abnormalities; BI-RADS 2 signifies benign findings with no suspicion of cancer; BI-RADS 3 suggests a benign lesion, requiring short-term follow-up to confirm stability; BI-RADS 4 represents a suspicious abnormality needing biopsy, further divided into 4A (low suspicion), 4B (moderate suspicion), and 4C (high suspicion); BI-RADS 5 is highly suggestive of malignancy with a high probability of cancer; and BI-RADS 6 confirms a known malignancy with a biopsy-proven cancer diagnosis.",
     "FINDINGS": "<Summary of any abnormalities, calcifications, or other observations>"
 }
-
-Here are some examples of doctor annotated reports to guide you:
 
 """
 
@@ -119,6 +117,14 @@ class ClassificationResponse(BaseModel):
 
 import json
 
+
+def remove_invalid_control_chars(input_string):
+    # Regex to match control characters (ASCII 0-31 except for tab, newline, and carriage return)
+    cleaned_string = re.sub(r'[\x00-\x1F\x7F]', '', input_string)
+    return cleaned_string
+
+
+
 def fix_json(json_input):
     """
     Ensures the input is a JSON string or a dictionary and always returns a dictionary.
@@ -191,7 +197,7 @@ def main(model_name, reports_to_process):
     for report in range(0, reports_to_process):
         report_id = source_file_dir + str(report+1).zfill(3)+'.png'
         print(report_id)
-        image_id = 'IMG'+ str(report+1).zfill(3)
+        original_image_id = 'IMG'+ str(report+1).zfill(3)
         
         similar_images = retrieve_similar_images(report_id)
         
@@ -207,7 +213,7 @@ def main(model_name, reports_to_process):
 
             # Dynamically build the context string with the actual values
             context += f"""
-            Example :{index+1}
+            Example :{index}
             {{
             "IMG-ID": /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/{image_id},
             "BREAST-COMPOSITION": "{img_breast_composition}",
@@ -218,18 +224,16 @@ def main(model_name, reports_to_process):
 
         # print(context)
 
-        query = prompt_template+ 'image ID: '+  report_id +context
+        query = prompt_template+ 'image ID: '+  report_id + "  /n  " +context
         print(query)
-
-
-
 
 
         ollama = Ollama(model=model_name, temperature=temp)
         logging.getLogger().setLevel(logging.ERROR)  # Suppress INFO logs
 
-        # response = ollama.invoke(query)
-        response = ""
+        response = ollama.invoke(remove_invalid_control_chars(query))
+        print(response)
+        # response = ""
         # print(response)
 
         json_match = re.search(r"\{.*\}", response, re.DOTALL)
@@ -240,7 +244,7 @@ def main(model_name, reports_to_process):
         
         print(json_match)
         global saving_dir
-        image_saving_dir = saving_dir +image_id + '.json'
+        image_saving_dir = saving_dir +original_image_id + '.json'
 
         os.makedirs(os.path.dirname(image_saving_dir), exist_ok=True)
         with open(image_saving_dir, 'w') as json_file:
