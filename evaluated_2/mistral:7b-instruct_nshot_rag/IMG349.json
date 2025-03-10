@@ -1,0 +1,6 @@
+{
+    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG349.png",
+    "BREAST-COMPOSITION": "heterogeneously dense breast tissue (ACR D), which may increase the risk of false negatives and make it harder to detect small lesions.",
+    "BIRADS": "2",
+    "FINDINGS": "No suspicious calcifications or masses detected. The skin, nipple, and pectoral muscle appear normal."
+}

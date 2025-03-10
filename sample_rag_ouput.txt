@@ -42,6 +42,11 @@ No axillary adenopathy."
 Data has been written to evaluated/qwen_nshot/IMG043.png.json
 /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG002.png
 
+
+
+
+
+
 I will provide you with a mammogram image. Your task is to analyze the image and extract key diagnostic information, including breast composition, BIRADS category, and any significant findings. Present the output in a structured JSON format with the following keys: IMG_ID, Breast_Composition, BIRADS, and Findings. Ensure the response is precise, medically relevant, and well-organized.
 Please follow the below given JSON format for your response:
 {

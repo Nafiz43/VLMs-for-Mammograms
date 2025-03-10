@@ -18,7 +18,10 @@ def replace_none_with_one(lst):
 def replace_values(lst):
         return [1 if x in {1, 2, 3} else 2 if x in {4, 5, 6} else x for x in lst]
 
-master_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated"
+master_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated_2/"
+results_dir = "results_2"
+os.makedirs(results_dir, exist_ok=True)
+
 subdirs = [d for d in os.listdir(master_dir) if os.path.isdir(os.path.join(master_dir, d))]
 print(subdirs)
 
@@ -28,7 +31,7 @@ master_df = pd.DataFrame()
 for t_dir in subdirs:
     print(t_dir)
     ground_truth_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/GROUND-TRUTH-REPORTS"
-    test_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/"+t_dir
+    test_dir = master_dir +t_dir
 
     process_json_files(test_dir)
     # Lists to store BIRADS values
@@ -120,7 +123,7 @@ for t_dir in subdirs:
     plt.xlabel("Predicted Labels")
     plt.ylabel("True Labels")
     plt.title("Confusion Matrix")
-    image_save_dir = test_dir.replace('/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/', 'results/')
+    image_save_dir = test_dir.replace(master_dir, results_dir)
     plt.savefig(image_save_dir+".png")
     plt.show()
 
@@ -209,5 +212,6 @@ for t_dir in subdirs:
     print(df)
     master_df = pd.concat([master_df, df], ignore_index=True)  # Resets the index
 
-master_df.to_csv('results/LLM_Performance.csv', index=False)
+
+master_df.to_csv(results_dir+'/LLM_Performance.csv', index=False)
 print(master_df)

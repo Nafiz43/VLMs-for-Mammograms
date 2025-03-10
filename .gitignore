@@ -8,6 +8,7 @@ Miniconda3-latest-Linux-x86_64.sh
 /local_chat_history/
 /__pycache__/
 /evaluated/
+/evaluated_1/
 /evaluated_old/
 /GROUND-TRUTH-REPORTS/
 /chroma/

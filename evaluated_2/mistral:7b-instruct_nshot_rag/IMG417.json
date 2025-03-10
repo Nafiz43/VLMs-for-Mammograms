@@ -1,0 +1,6 @@
+{
+    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG417.png",
+    "BREAST-COMPOSITION": "Heterogeneously dense breast parenchyma (ACR D).",
+    "BIRADS": "3",
+    "FINDINGS": "Around the periphery of the image, there is a well-circumscribed opacity with regular margins and homogeneous density. This finding suggests a benign fibroadenoma or a benign fat necrosis (BIRADS 2). However, in the central part of the image, there are multiple scattered microcalcifications with irregular shapes and sizes. These findings suggest a suspicious area that requires short-term follow-up to confirm stability (BIRADS 3). No mass or architectural distortion is visible."
+}

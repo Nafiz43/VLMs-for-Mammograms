@@ -1,0 +1,6 @@
+{
+    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG325.png",
+    "BREAST-COMPOSITION": "heterogeneously dense breast parenchyma (ACR D), which may increase the risk of false negatives and make it harder to detect small lesions.",
+    "BIRADS": "4A",
+    "FINDINGS": "No obvious masses or calcifications are visible in this image. However, there are some scattered microcalcifications in the upper outer quadrant, which may be benign but warrant further evaluation."
+}

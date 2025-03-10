@@ -1,0 +1,6 @@
+{
+    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG042.png",
+    "BREAST-COMPOSITION": "Dense glandular breast tissue with scattered fibrotic areas (ACR D)",
+    "BIRADS": "3",
+    "FINDINGS": "Around 1 o'clock position, there is a round, well-circumscribed opacity measuring approximately 8mm. The opacity shows mildly increased density compared to the surrounding tissue and has a regular contour. No microcalcifications are seen around this lesion. This finding is suggestive of a benign fibroadenoma. Short-term follow-up is recommended to confirm stability."
+}

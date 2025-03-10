@@ -1,0 +1,6 @@
+{
+    "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG247.png",
+    "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D)",
+    "BIRADS": "3",
+    "FINDINGS": "This image shows a heterogeneously dense breast tissue with some areas of fatty replacement. There is an irregularly shaped, round opacity with ill-defined margins in the upper outer quadrant of the left breast. The opacity measures approximately 10mm in diameter. No microcalcifications are seen around this lesion. This finding is suggestive of a benign lesion, possibly a fibroadenoma, and requires short-term follow-up to confirm stability."
+}
