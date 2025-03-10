@@ -23,8 +23,8 @@ import open_clip
 
 # source_file_dir = '/mnt/data1/raiyan/breast_cancer/datasets/dmid/png_images/all_images/IMG'
 
-chroma_client = chromadb.PersistentClient(path="./chroma_db")  # Persistent storage
-multimodal_db = chroma_client.get_or_create_collection(name="image_embeddings")
+chroma_client = chromadb.PersistentClient(path="./chroma")  # Persistent storage
+multimodal_db = chroma_client.get_or_create_collection(name="multimodal_db_all")
 
 
 source_file_dir =  '/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG'
@@ -44,15 +44,8 @@ Please follow the below given JSON format for your response:
 
 Here are some examples of doctor annotated reports to guide you:
 
-{example_1}
-{example_2}
-{example_3}
-
 """
 
-global example_1
-global example_2
-global example_3
 
 
 allowable_models = ["meditron:latest", "jyan1/paligemma-mix-224:latest", "qwen2.5:latest", "medllama2:latest", "llama3.1:latest", "gemma:7b-instruct", "mistral:7b-instruct", "mixtral:8x7b-instruct-v0.1-q4_K_M", 
@@ -63,7 +56,8 @@ allowable_models = ["meditron:latest", "jyan1/paligemma-mix-224:latest", "qwen2.
 
 # Load OpenCLIP model
 device = "cuda" if torch.cuda.is_available() else "cpu"
-model = open_clip.create_model("ViT-B/32", pretrained="laion2b_s34b_b79k").to(device)
+model = open_clip.create_model("ViT-B-32", pretrained="openai").to(device)
+# open_clip.create_model_and_transforms("ViT-B-32", pretrained="openai")
 
 
 # Preprocessing for OpenCLIP (manual transform)
@@ -92,26 +86,28 @@ def retrieve_similar_images(query_image_path):
         query_embeddings=[query_embedding],  # Query using the passed image embedding
         n_results=3  # Retrieve top 3 results
     )
+
+    # print(results)
+    return results
     
     # # Inspect and log the full results to understand their structure
     # print("Full Query Results:")
     # print(results)
     
     # Extracting the IDs and metadata and storing them in the required format.
-    formatted_data = []
+    # formatted_data = []
 
-    for img_id, metadata in zip(results['ids'][0], results['metadatas'][0]):
-        formatted_entry = {
-            "IMG-ID": img_id,
-            "BREAST-COMPOSITION": metadata['Breast_Composition'].replace('\n', ' ').strip(),
-            "BIRADS": str(metadata['BIRADS']),
-            "FINDINGS": metadata['Findings'].replace('\n', ' ').strip()
-        }
-        formatted_data.append(formatted_entry)
+    # for img_id, metadata in zip(results['ids'][0], results['metadatas'][0]):
+    #     formatted_entry = {
+    #         "IMG-ID": img_id,
+    #         "BREAST-COMPOSITION": metadata['Breast_Composition'].replace('\n', ' ').strip(),
+    #         "BIRADS": str(metadata['BIRADS']),
+    #         "FINDINGS": metadata['Findings'].replace('\n', ' ').strip()
+    #     }
+    #     formatted_data.append(formatted_entry)
         
-    example_1=formatted_data[0]
-    example_2=formatted_data[1]
-    example_3=formatted_data[2]
+    # example_1=formatted_data[0]
+    # example_2=formatted_data[1]
     
 
 
@@ -175,6 +171,10 @@ def fix_json(json_input):
     help="An extra integer to be passed via command line"
 )
 
+
+
+
+
 def main(model_name, reports_to_process):
     print(f"Received model_name: {model_name}")
     print(f"Received value for reports_to_process: {reports_to_process}")
@@ -193,13 +193,44 @@ def main(model_name, reports_to_process):
         print(report_id)
         image_id = 'IMG'+ str(report+1).zfill(3)
         
-        # query = 'image ID: ' + report_id
-        query = prompt_template+ 'image ID: '+  report_id
+        similar_images = retrieve_similar_images(report_id)
+        
+        # print("printing similar images::::::::", similar_images)
+
+
+        context = "Here are some examples of doctor annoted reports to guide you: "
+        for index in range(1, 3):
+            image_id = similar_images["ids"][0][index]  # Get the image ID
+            img_findings = similar_images["metadatas"][0][index]['Findings']  # Get the findings
+            img_birads = similar_images["metadatas"][0][index]['BIRADS']  # Get the BIRADS score
+            img_breast_composition = similar_images["metadatas"][0][index]['Breast_Composition']  # Get the breast composition
+
+            # Dynamically build the context string with the actual values
+            context += f"""
+            Example :{index+1}
+            {{
+            "IMG-ID": /mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/{image_id},
+            "BREAST-COMPOSITION": "{img_breast_composition}",
+            "BIRADS": "{img_birads}",
+            "FINDINGS": "{img_findings}"
+            }}
+            """
+
+        # print(context)
+
+        query = prompt_template+ 'image ID: '+  report_id +context
+        print(query)
+
+
+
+
 
         ollama = Ollama(model=model_name, temperature=temp)
         logging.getLogger().setLevel(logging.ERROR)  # Suppress INFO logs
-        response = ollama.invoke(query)
-        print(response)
+
+        # response = ollama.invoke(query)
+        response = ""
+        # print(response)
 
         json_match = re.search(r"\{.*\}", response, re.DOTALL)
         if json_match in [None, ""]:
