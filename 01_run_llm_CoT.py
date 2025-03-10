@@ -211,7 +211,7 @@ def main(model_name, reports_to_process):
         print(json_match)
         # global saving_dir
         #constructing the saving dir here
-        saving_dir = 'evaluated/'+model_name+'_nshot_rag/'
+        saving_dir = 'evaluated/'+model_name+'_CoT/'
         print(saving_dir)
 
         image_saving_dir = saving_dir +image_id + '.json'
