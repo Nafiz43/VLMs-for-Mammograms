@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG343.png",
     "BREAST-COMPOSITION": "The breast tissue in this mammogram image appears to be heterogeneous, exhibiting both dense and fatty areas.",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "There is a round, well-circumscribed opacity with regular margins, measuring approximately 10mm in diameter, located in the upper outer quadrant of the left breast. This finding suggests a benign lesion such as a fibroadenoma or a fat necrosis. However, due to its size and location, short-term follow-up is recommended to confirm stability."
 }

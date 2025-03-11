@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG368.png",
     "BREAST-COMPOSITION": "Predominantly fatty breast parenchyma (ACR A)",
-    "BIRADS": "1",
+    "BIRADS": 1,
     "FINDINGS": "No abnormalities detected in the image. The skin and nipple appear normal."
 }

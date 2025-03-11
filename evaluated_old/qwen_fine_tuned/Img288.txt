@@ -1,8 +1,0 @@
-```json
-{
-    "IMG-ID": "Mammogram_Lateral",
-    "BREAST-COMPOSITION": "Heterogeneously dense",
-    "BIRADS": "4B",
-    "FINDINGS": "Multiple areas of increased density noted throughout the breast, with some areas appearing clustered and irregular. These findings are suspicious for malignancy and require further evaluation with additional imaging and possibly a biopsy."
-}
-```

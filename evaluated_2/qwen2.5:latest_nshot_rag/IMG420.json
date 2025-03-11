@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG420.png",
     "BREAST-COMPOSITION": "heterogeneously dense fibroglandular breast parenchyma (ACR B).",
-    "BIRADS": "4B",
+    "BIRADS": 4,
     "FINDINGS": "A 1.5 cm mass with irregular margins and spiculated appearance is noted in the upper outer quadrant. Microcalcifications are present within the mass. No suspicious axillary lymphadenopathy observed."
 }

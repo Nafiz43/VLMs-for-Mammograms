@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG461.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR C)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A small, well-defined mass is observed in the upper outer quadrant of the left breast. The mass has a smooth margin and no spiculation or irregularity. No suspicious microcalcifications are noted. The surrounding tissue appears normal with no significant axillary adenopathy."
 }

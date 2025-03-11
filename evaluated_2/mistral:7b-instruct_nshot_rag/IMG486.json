@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG486.png",
     "BREAST-COMPOSITION": "Dense glandular breast tissue (ACR D)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A round, circumscribed opacity with regular margins and possible microcalcifications in the upper outer quadrant of the breast. This finding is suggestive of a benign fibroadenoma or a complex sclerosing adenoma. Short-term follow-up is recommended to confirm stability."
 }

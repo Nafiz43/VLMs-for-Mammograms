@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG083.png",
     "BREAST-COMPOSITION": "fibro fatty breast parenchyma (ACR A).",
-    "BIRADS": "4B",
+    "BIRADS": 4,
     "FINDINGS": "Coarse calcification with architectural distortion seen in the upper quadrant of the breast suggests moderate suspicious lesion (BIRADS 4B). Pectoral muscle and skin appear normal. No significant axillary adenopathy."
 }

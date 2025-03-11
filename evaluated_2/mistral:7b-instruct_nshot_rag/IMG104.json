@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG104.png",
     "BREAST-COMPOSITION": "heterogeneously dense breast tissue (ACR D)",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "microcalcifications in the upper outer quadrant of the breast, suggestive of a low suspicion for malignancy (BI-RADS 4A)"
 }

@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG496.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR C)",
-    "BIRADS": "4B",
+    "BIRADS": 4,
     "FINDINGS": "A well-defined, slightly lobulated soft opacity is seen in the upper outer quadrant of the left breast. The lesion has a spiculated margin with some areas of indistinctness, suggesting high suspicion for malignancy (BIRADS 4B). No abnormal microcalcifications are noted. Skin and nipple appear normal. Pectoral muscle shows no abnormalities. Two enlarged axillary lymph nodes are observed."
 }

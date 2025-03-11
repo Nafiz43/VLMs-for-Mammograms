@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG233.png",
     "BREAST-COMPOSITION": "fibro fatty breast parenchyma (ACR A).",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "Suggestive but not diagnostic findings of a small, well-defined mass in the upper outer quadrant. No suspicious microcalcifications noted. Skin and nipple appear normal. Short-term follow-up recommended."
 }

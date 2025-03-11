@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG150.png",
     "BREAST-COMPOSITION": "Fibro fatty with scattered fibroglandular densities (ACR B2)",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "A small, partially defined soft opacity in the upper outer quadrant of the breast. The margin is slightly spiculated and may suggest a suspicious abnormality (BIRADS 4A). No significant calcifications or other abnormalities noted. Benign-looking axillary lymph nodes."
 }

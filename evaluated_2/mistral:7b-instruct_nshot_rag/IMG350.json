@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG350.png",
     "BREAST-COMPOSITION": "heterogeneously dense breast tissue (ACR D)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "Around 1 cm round, well-circumscribed opacity is seen in the upper outer quadrant of the left breast. This finding is suggestive of a benign lesion, requiring short-term follow-up to confirm stability (BIRADS 3). No other significant findings are noted."
 }

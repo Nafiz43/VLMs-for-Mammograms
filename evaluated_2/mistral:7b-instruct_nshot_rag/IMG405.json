@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG405.png",
     "BREAST-COMPOSITION": "Predominantly fatty breast parenchyma with scattered fibroglandular densities (ACR D)",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No mass, architectural distortion or calcifications are observed. The skin and nipple appear normal."
 }

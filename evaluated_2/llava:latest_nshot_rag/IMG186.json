@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG186.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR C)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "a few well-defined soft opacities seen in the upper quadrant of the breast suggest probably benign lesions (BIRADS 3). no abnormal microcalcification. skin, nipple, and pectoral muscle appear normal. no significant axillary adenopathy."
 }

@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG279.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR C).",
-    "BIRADS": "4B",
+    "BIRADS": 4,
     "FINDINGS": "Multiple irregular soft opacities are observed in the outer quadrant of the breast, suggesting moderate suspicion for malignancy (BIRADS 4B). No significant calcifications are noted. The skin and nipple appear normal."
 }

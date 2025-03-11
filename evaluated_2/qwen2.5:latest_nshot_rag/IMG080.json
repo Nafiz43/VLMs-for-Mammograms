@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG080.png",
     "BREAST-COMPOSITION": "Fibroglandular breast parenchyma (ACR B).",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "Benign findings with no suspicion of cancer. No abnormal masses or calcifications observed. Skin and nipple appear normal."
 }

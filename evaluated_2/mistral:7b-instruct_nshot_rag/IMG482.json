@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG482.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "Multiple round, well-circumscribed calcifications with regular margins are seen in the upper outer quadrant. No mass or architectural distortion is noted."
 }

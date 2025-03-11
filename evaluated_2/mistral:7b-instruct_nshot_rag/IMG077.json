@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG077.png",
     "BREAST-COMPOSITION": "Dense glandular breast tissue (ACR D).",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No abnormalities or suspicious lesions detected in this image. The skin, nipple, and pectoral muscle appear normal."
 }

@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG321.png",
     "BREAST-COMPOSITION": "ACR B (Scattered areas of fibroglandular density)",
-    "BIRADS": "4A (low suspicion)",
+    "BIRADS": 4,
     "FINDINGS": "CALC: There are small, scattered calcifications throughout the breast tissue."
 }

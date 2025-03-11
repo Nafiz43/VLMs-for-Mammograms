@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG495.png",
     "BREAST-COMPOSITION": "fibro fatty breast parenchyma (ACR C)",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "A suspicious mass with irregular margins and microcalcifications seen in the upper outer quadrant of the left breast. No skin or nipple abnormalities noted. Mild axillary lymphadenopathy observed, but no significant masses. BIRADS 4A suggests a low suspicion for malignancy, requiring biopsy."
 }

@@ -1,8 +1,0 @@
-```json
-{
-    "IMG-ID": "Mammogram_Lateral_View",
-    "BREAST-COMPOSITION": "Heterogeneously dense",
-    "BIRADS": "4B",
-    "FINDINGS": "There is an irregular mass located in the upper outer quadrant of the left breast. The mass has spiculated margins and associated architectural distortion. There are also areas of increased density surrounding the mass."
-}
-```

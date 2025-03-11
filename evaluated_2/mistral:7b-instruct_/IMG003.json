@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG003.png",
     "BREAST-COMPOSITION": "The breast tissue in this image appears to be heterogeneous, with areas of both fatty and dense tissue.",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "There are no significant findings or abnormalities observed in this mammogram image."
 }

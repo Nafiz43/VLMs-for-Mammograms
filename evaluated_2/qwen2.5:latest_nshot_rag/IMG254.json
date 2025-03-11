@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG254.png",
     "BREAST-COMPOSITION": "predominantly fibroglandular with areas of fatty tissue (ACR A)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "Several small, well-defined calcifications noted in the upper outer quadrant. No masses or suspicious lesions identified. Skin and nipple appear normal. Short-term follow-up recommended for stability assessment."
 }

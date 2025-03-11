@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG223.png",
     "BREAST-COMPOSITION": "Dense glandular breast tissue with a few scattered fibroglandular densities (ACR D)",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No suspicious masses or calcifications are observed in this image. The skin and nipple appear normal."
 }

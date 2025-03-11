@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG303.png",
     "BREAST-COMPOSITION": "Dense glandular with scattered fibrous areas (ACR D)",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No abnormal soft opacity or microcalcifications observed. Mammographic density is heterogeneously dense, which may increase the risk of developing breast cancer in the future."
 }

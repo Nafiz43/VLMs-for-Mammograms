@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG153.png",
     "BREAST-COMPOSITION": "Fibro glandular breast parenchyma seen (ACR C).",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "Benign findings with no suspicion of cancer. No abnormal soft opacity or masses observed. Skin, nipple, and pectoral muscle appear normal. No axillary adenopathy."
 }

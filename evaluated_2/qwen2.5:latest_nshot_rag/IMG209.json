@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG209.png",
     "BREAST-COMPOSITION": "predominantly fibro fatty with scattered glandular breast parenchyma (ACR-B).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A 5mm calcification is noted in the upper outer quadrant. No suspicious masses or abnormal soft tissue opacities are observed. Short-term follow-up recommended."
 }

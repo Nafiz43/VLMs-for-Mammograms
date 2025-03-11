@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG154.png",
     "BREAST-COMPOSITION": "heterogeneously dense breast parenchyma (ACR D)",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No suspicious masses or calcifications are observed in this image. The skin, nipple, and pectoral muscle appear normal."
 }

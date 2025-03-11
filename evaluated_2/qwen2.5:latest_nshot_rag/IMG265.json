@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG265.png",
     "BREAST-COMPOSITION": "fibro glandular breast parenchyma (ACR C).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A 4mm calcification in the upper outer quadrant. No suspicious masses or architectural distortions observed. Skin, nipple, and pectoral muscle appear normal."
 }

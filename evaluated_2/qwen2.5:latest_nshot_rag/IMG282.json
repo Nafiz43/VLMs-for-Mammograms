@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG282.png",
     "BREAST-COMPOSITION": "fibro fatty with scattered areas of glandular tissue (ACR B)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "No significant masses or calcifications observed. Bilateral breast density is within normal limits for the age and hormonal status of the patient. No suspicious lesions noted, but a small area of benign fibroglandular density seen in the upper outer quadrant of the left breast. Skin, nipple, and pectoral muscle appear normal. BIRADS: 3"
 }

@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG388.png",
     "BREAST-COMPOSITION": "The breast tissue in this mammogram image appears to be heterogeneously dense.",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "There is a round, well-circumscribed opacity with regular margins and a possible calcification present in the upper outer quadrant of the left breast. This finding requires short-term follow-up to confirm stability."
 }

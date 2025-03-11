@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG398.png",
     "BREAST-COMPOSITION": "Mixed glandular and fatty breast tissue (ACR C and D).",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No mass or calcifications detected. Normal parenchymal density with no architectural distortion or asymmetry."
 }

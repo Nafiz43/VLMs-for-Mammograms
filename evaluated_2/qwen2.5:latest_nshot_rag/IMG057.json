@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG057.png",
     "BREAST-COMPOSITION": "fibro fatty breast parenchyma (ACR C).",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No abnormal soft opacity or microcalcification seen. The breast composition is fibro fatty, and the findings are benign with no suspicion of cancer."
 }

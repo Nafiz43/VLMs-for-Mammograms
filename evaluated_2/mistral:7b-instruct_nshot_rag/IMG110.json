@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG110.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "Around 5 o'clock position, there is a round opacity with well-circumscribed margins and regular contours. No microcalcifications are seen within the lesion. This finding suggests a benign lesion (BIRADS-3). The skin and nipple appear normal."
 }

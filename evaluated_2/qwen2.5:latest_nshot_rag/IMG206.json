@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG206.png",
     "BREAST-COMPOSITION": "predominantly fibro fatty breast parenchyma (ACR-A), with scattered areas of glandular tissue.",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "A suspicious mass is observed in the upper outer quadrant of the left breast. The mass has a spiculated margin and shows architectural distortion, suggestive of a high suspicion for malignancy (BI-RADS 4A). No abnormal microcalcifications are noted. Skin and nipple appear normal. No significant axillary adenopathy."
 }

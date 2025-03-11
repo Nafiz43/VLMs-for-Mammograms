@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG181.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR E)",
-    "BIRADS": "4B",
+    "BIRADS": 4,
     "FINDINGS": "Microcalcifications in the upper outer quadrant of the breast, suggestive of a suspicious lesion (BIRADS 4B). No other significant findings noted in this image."
 }

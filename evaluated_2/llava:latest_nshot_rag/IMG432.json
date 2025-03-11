@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG432.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D)",
-    "BIRADS": "5",
+    "BIRADS": 5,
     "FINDINGS": "A large irregular soft opacity with spiculated edges seen in the inner quadrant of the breast suggests a highly suspicious malignant lesion (BIRADS 5). The presence of microcalcifications within this mass further supports the suspicion of malignancy. Skin and nipple appear normal."
 }

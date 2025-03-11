@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG034.png",
     "BREAST-COMPOSITION": "The breast tissue in this image appears to be heterogeneous, exhibiting both dense and fatty areas.",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "There is a round, well-circumscribed opacity with regular margins and a smooth contour, suggestive of a benign fibroadena. No other significant findings are observed in this image."
 }

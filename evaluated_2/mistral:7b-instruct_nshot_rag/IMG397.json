@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG397.png",
     "BREAST-COMPOSITION": "Mixed density breast tissue (ACR B)",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No abnormalities or suspicious lesions observed in this image. Normal parenchymal architecture with no significant calcifications, architectural distortion, or mass lesion detected. The skin and nipple appear normal as well."
 }

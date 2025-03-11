@@ -1,6 +1,6 @@
 {
     "IMG_ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG139.png",
     "BREAST-COMPOSITION": "Fibro glandular breast parenchyma (ACR B).",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No abnormal soft opacity seen. A small benign-looking calcification seen in the outer quadrant of the breast (BIRADS 2).skin and nipple appear normal."
 }

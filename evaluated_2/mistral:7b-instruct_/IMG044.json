@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG044.png",
     "BREAST-COMPOSITION": "The breast tissue in this image appears to be heterogeneous, with areas of both dense and fatty tissue.",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "There is a round, well-circumscribed opacity seen in the upper outer quadrant of the left breast. This finding is suggestive of a benign fibroadenaoma. No other significant findings are noted."
 }

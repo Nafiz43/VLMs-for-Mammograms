@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG144.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A well-defined oval opacity is seen in the inner quadrant of the breast, suggesting a benign lesion (BIRADS 3). No abnormal microcalcifications are present."
 }

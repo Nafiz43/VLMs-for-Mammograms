@@ -1,6 +1,6 @@
 {
     "IMG_ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG158.png",
     "BREAST_COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR C)",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "a small well defined lobulated soft opacity with internal calcifications seen in the anterior aspect of the upper quadrant of the breast suggest benign lesion - calcified fibroadenoma likely.skin, nipple, and pectoral muscle appear normal. no significant axillary adenopathy. BIRADS: 2"
 }

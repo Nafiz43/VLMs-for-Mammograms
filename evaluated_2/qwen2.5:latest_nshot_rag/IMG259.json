@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG259.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR A).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A 10 mm benign-appearing fibroglandular density is noted. No suspicious masses or microcalcifications identified. Skin and nipple appear normal."
 }

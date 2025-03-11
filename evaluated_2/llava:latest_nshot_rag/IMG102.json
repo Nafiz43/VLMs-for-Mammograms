@@ -1,6 +1,6 @@
 {
     "IMG_ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG102.png",
     "BREAST-COMPOSITION": "Fibro fatty and glandular breast parenchyma (ACR B)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "There are no significant findings in this image. The breast tissue appears to be of mixed composition, with both fibro fatty and glandular elements present. There are no masses, calcifications, or other abnormalities visible in the image."
 }

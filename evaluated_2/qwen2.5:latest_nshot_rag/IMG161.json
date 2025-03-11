@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG161.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR C)",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No significant findings. Benign-appearing fibroglandular density noted throughout the breast with no suspicious masses or calcifications observed. Skin, nipple, and pectoral muscle appear normal."
 }

@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG274.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR B)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "benign-appearing calcifications seen in the upper outer quadrant of the breast. no suspicious masses or architectural distortions noted. skin, nipple, and pectoral muscle appear normal. short-term follow-up recommended for stability (BIRADS 3)"
 }

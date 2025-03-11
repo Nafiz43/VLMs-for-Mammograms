@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG280.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A small, round, circumscribed opacity with smooth margins and a central lucency is seen in the upper outer quadrant of the breast. This finding is suggestive of a benign fat necrosis or a benign cyst. However, due to the dense glandular tissue in this region, it is recommended for short-term follow-up to confirm stability."
 }

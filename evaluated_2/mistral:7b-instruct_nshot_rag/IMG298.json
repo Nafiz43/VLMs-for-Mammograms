@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG298.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D)",
-    "BIRADS": "4C",
+    "BIRADS": 4,
     "FINDINGS": "A spiculated mass with irregular margins is seen in the upper outer quadrant of the breast, suggestive of a malignant lesion. (BIRADS 4C). No other significant findings were observed."
 }

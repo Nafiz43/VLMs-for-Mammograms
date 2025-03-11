@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG358.png",
     "BREAST-COMPOSITION": "fibro fatty with scattered fibroglandular densities (ACR B)",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "A 10mm well-defined mass in the upper outer quadrant of the breast. The margins are smooth and sharp, with no spiculation or irregularity noted. No suspicious microcalcifications seen within the mass. Skin, nipple, and pectoral muscle appear normal. BIRADS: 4A - Low suspicion for malignancy; requires biopsy."
 }

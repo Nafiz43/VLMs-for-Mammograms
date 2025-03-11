@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG128.png",
     "BREAST-COMPOSITION": "Dense glandular breast tissue (ACR D).",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No abnormal soft opacity or microcalcification seen. Mammographic density is increased, which may make it more difficult to detect potential abnormalities in future examinations."
 }

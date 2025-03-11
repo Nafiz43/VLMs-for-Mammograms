@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG502.png",
     "BREAST-COMPOSITION": "Heterogeneously dense glandular breast parenchyma (ACR D)",
-    "BIRADS": "4B",
+    "BIRADS": 4,
     "FINDINGS": "A 1.2 cm complex mass with spiculated margins seen in the upper-outer quadrant of the left breast, concerning for a suspicious abnormality (BIRADS 4B). Multiple microcalcifications are noted within and around the mass. No skin or nipple changes observed. Enlarged axillary lymph nodes are present but appear benign."
 }

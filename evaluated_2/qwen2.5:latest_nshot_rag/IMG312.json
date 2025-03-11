@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG312.png",
     "BREAST-COMPOSITION": "fibro fatty breast parenchyma (ACR C).",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "A suspicious mass with irregular margins and microcalcifications seen in the upper outer quadrant of the breast. The mass is classified as BI-RADS 4A, indicating a low suspicion for malignancy but requiring further evaluation through biopsy or follow-up imaging. No significant axillary adenopathy noted. Skin and nipple appear normal."
 }

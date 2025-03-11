@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG317.png",
     "BREAST-COMPOSITION": "The breast tissue in this mammogram image appears to be heterogeneously dense, indicating a mix of fatty and glandular tissues.",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "There is an oval-shaped opacity with ill-defined margins, measuring approximately 1.5 cm in diameter, located in the upper outer quadrant of the left breast. This finding suggests a benign lesion, possibly a fibroadenoma or a complex cyst, and requires short-term follow-up to confirm stability."
 }

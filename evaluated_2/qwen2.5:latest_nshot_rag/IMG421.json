@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG421.png",
     "BREAST-COMPOSITION": "Fibro-fatty and glandular breast parenchyma (ACR B)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A well-defined, round mass with smooth margins seen in the upper outer quadrant of the breast. No suspicious calcifications or other abnormalities noted. Skin, nipple, and pectoral muscle appear normal. Benign-looking axillary nodes present."
 }

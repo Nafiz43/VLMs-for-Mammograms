@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG473.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D)",
-    "BIRADS": "4C",
+    "BIRADS": 4,
     "FINDINGS": "A well-circumscribed, round mass with spiculated margins and a possible calcification in the upper inner quadrant of the breast is suggestive of a high suspicious malignant lesion (BIRADS 4C). No other significant findings are noted."
 }

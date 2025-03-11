@@ -1,6 +1,6 @@
 {
     "IMG_ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG035.png",
     "BREAST_COMPOSITION": "Fibro glandular breast parenchyma seen (ACR C).",
-    "BIRADS": "1",
+    "BIRADS": 1,
     "FINDINGS": "No abnormal soft opacity seen.Skin and nipple appear normal."
 }

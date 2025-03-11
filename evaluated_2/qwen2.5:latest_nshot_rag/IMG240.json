@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG240.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR C).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A 1.5 cm mass in the upper outer quadrant is noted, which appears benign on mammography but requires short-term follow-up for stability. No abnormal soft opacity or microcalcification seen. Skin and nipple appear normal."
 }

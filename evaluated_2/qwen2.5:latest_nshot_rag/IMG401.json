@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG401.png",
     "BREAST-COMPOSITION": "predominantly fibroglandular breast parenchyma with areas of fatty tissue (ACR B).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A benign-appearing fibrotic lesion is noted in the upper outer quadrant. No suspicious microcalcifications or masses are identified. Skin and nipple appear normal."
 }

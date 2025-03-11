@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG472.png",
     "BREAST-COMPOSITION": "Dense glandular breast tissue (ACR D).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A round, well-circumscribed opacity with smooth margins and regular contour is seen in the upper outer quadrant of the breast. No microcalcifications are present within or around this lesion. This finding is suggestive of a benign fibroadenoma (BIRADS 3). The skin and nipple appear normal."
 }

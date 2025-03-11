@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG039.png",
     "BREAST-COMPOSITION": "heterogeneously dense breast parenchyma (ACR C).",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "A 12 mm complex mass with spiculated margins seen in the upper outer quadrant of the left breast. No suspicious calcifications or other abnormalities noted. Skin and nipple appear normal."
 }

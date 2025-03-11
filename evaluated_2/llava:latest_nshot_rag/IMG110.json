@@ -1,6 +1,6 @@
 {
     "IMG_ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG110.png",
     "BREAST-COMPOSITION": "Fibro glandular breast parenchyma (ACR C)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "Well defined  soft opacity in the lower quadrant appears to be benign lesion (BIRADS-3)Skin and nipple appear normalBenign looking axillary adenopathy"
 }

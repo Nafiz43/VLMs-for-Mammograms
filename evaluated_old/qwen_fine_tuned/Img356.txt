@@ -1,8 +1,0 @@
-```json
-{
-    "IMG-ID": "Mammogram_Lateral",
-    "BREAST-COMPOSITION": "Heterogeneously dense",
-    "BIRADS": "4B",
-    "FINDINGS": "The mammogram shows a cluster of microcalcifications in the upper outer quadrant of the left breast. These calcifications are irregularly shaped and clustered together, which may be suspicious for malignancy. Further evaluation with ultrasound and possibly a biopsy is recommended."
-}
-```

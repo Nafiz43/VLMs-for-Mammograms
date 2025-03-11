@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG425.png",
     "BREAST-COMPOSITION": "Dense glandular with scattered fibro-fatty tissue (ACR D)",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "Multiple small round calcifications are seen in the upper outer quadrant of the breast. No mass lesion is identified. BIRADS: 4A (low suspicion)"
 }

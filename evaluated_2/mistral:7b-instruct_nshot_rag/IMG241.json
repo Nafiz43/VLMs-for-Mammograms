@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG241.png",
     "BREAST-COMPOSITION": "heterogeneously dense breast tissue (ACR D)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "No mass or calcification is visible in this image. However, there are some scattered microcalcifications in the upper outer quadrant of the left breast which require short-term follow-up to confirm stability."
 }

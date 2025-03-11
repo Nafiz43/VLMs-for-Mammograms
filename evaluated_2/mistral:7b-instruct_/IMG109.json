@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG109.png",
     "BREAST-COMPOSITION": "The breast tissue in this image appears to be heterogeneously dense, which means that it has a mix of both fatty and dense areas.",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "There is an irregularly shaped opacity with ill-defined margins in the upper outer quadrant of the breast. This finding is suggestive of a benign lesion, possibly a fibroadenoma or a complex cyst. However, due to its indeterminate nature and location, short-term follow-up imaging is recommended to confirm stability."
 }

@@ -1,6 +1,6 @@
 {
     "IMG_ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG502.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D)",
-    "BIRADS": "5",
+    "BIRADS": 5,
     "FINDINGS": "A large diffuse soft opacity with foci of microcalcifications seen involving upper-lower quadrant of breast infiltration overlying skin and nipple suggest malignant lesion (BIRADS 5)"
 }

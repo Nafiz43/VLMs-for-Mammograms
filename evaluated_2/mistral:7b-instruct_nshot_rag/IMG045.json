@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG045.png",
     "BREAST-COMPOSITION": "heterogeneously dense breast parenchyma (ACR D)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "There is an oval, well-circumscribed opacity with regular margins and density slightly greater than the surrounding tissue in the upper outer quadrant of the left breast. This finding is likely a benign fibroadenoma or a benign fat necrosis. Short-term follow-up is recommended to confirm stability."
 }

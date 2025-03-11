@@ -1,8 +1,0 @@
-```json
-{
-    "IMG-ID": "Mammogram_001",
-    "BREAST-COMPOSITION": "Heterogeneously dense breast tissue",
-    "BIRADS": "4B",
-    "FINDINGS": "Calcifications noted in the upper outer quadrant of the right breast. These are irregularly shaped and clustered, which may be suspicious. Further evaluation with ultrasound and biopsy is recommended."
-}
-```

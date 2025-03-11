@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG298.png",
     "BREAST-COMPOSITION": "Fibro-fatty breast parenchyma (ACR C)",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "A small, well-defined mass with spiculated margins is seen in the upper outer quadrant of the left breast. The mass has a low suspicion for malignancy (BIRADS 4A). No suspicious calcifications or other abnormalities are noted. Skin and nipple appear normal."
 }

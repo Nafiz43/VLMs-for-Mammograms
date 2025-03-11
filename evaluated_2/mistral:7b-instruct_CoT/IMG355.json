@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG355.png",
     "BREAST-COMPOSITION": "This mammogram image shows a heterogeneously dense breast composition (ACR C), indicating a significant amount of glandular tissue with some fatty areas.",
-    "BIRADS": "BI-RADS 3, this is a benign lesion requiring short-term follow-up to confirm stability",
+    "BIRADS": 3,
     "FINDINGS": "There are no visible calcifications (CALC), well-defined masses (CIRC), spiculated masses (SPIC), or other ill-defined masses (MISC) in this image. However, there is a slight asymmetry between the right and left breasts, which may be due to normal variations or prior surgery. Further imaging with mammography or ultrasound and/or biopsy may be needed for confirmation."
 }

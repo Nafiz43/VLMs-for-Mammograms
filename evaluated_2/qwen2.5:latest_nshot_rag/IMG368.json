@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG368.png",
     "BREAST-COMPOSITION": "predominantly fibroglandular breast parenchyma (ACR C)",
-    "BIRADS": "4B",
+    "BIRADS": 4,
     "FINDINGS": "A 5mm spiculated mass is seen in the upper outer quadrant of the left breast. The mass has a high suspicion for malignancy and requires biopsy (BIRADS 4B). No other significant findings are noted. Skin and nipple appear normal."
 }

@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG440.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D).",
-    "BIRADS": "4C",
+    "BIRADS": 4,
     "FINDINGS": "A well-circumscribed, round opacity with a regular margin and dense calcifications is seen in the upper outer quadrant of the left breast. This finding is highly suggestive of malignancy (BIRADS 4C). No other significant abnormalities are observed."
 }

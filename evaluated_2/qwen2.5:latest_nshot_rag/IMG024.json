@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG024.png",
     "BREAST-COMPOSITION": "predominantly fibroglandular breast parenchyma (ACR C).",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "A small, well-defined opacity with spiculated margins is observed in the outer quadrant of the breast. This finding suggests a low suspicion for malignancy (BIRADS 4A) and may require further evaluation through biopsy or short-term follow-up. No significant calcifications are noted within this lesion. The skin and nipple appear normal."
 }

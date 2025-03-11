@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG425.png",
     "BREAST-COMPOSITION": "fibro fatty with glandular breast parenchyma (ACR B)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "a well-defined lobulated soft opacity seen in the outer quadrant of the breast suggest a probably benign lesion (BIRADS 3). skin and nipple appear normal. BIRADS: 3"
 }

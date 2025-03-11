@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG121.png",
     "BREAST-COMPOSITION": "fibro fatty with glandular breast parenchyma (ACR B)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A small, well-defined calcification seen in the upper outer quadrant of the breast. No suspicious soft tissue masses or architectural distortions observed. Skin and nipple appear normal. Benign vascular calcifications noted. Short-term follow-up recommended for stability."
 }

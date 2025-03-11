@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG189.png",
     "BREAST-COMPOSITION": "Fibro glandular breast parenchyma (ACR B).",
-    "BIRADS": "4a",
+    "BIRADS": 4,
     "FINDINGS": "An ill-defined opacity seen in the breast suggests a low suspicious lesion. Skin, nipple, and pectoral muscle appear normal. Benign-looking axillary adenopathy."
 }

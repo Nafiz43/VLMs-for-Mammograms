@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG446.png",
     "BREAST-COMPOSITION": "Fibro-glandular breast parenchyma with scattered fatty areas (ACR C)",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No significant abnormalities or suspicious findings observed. Benign-appearing calcifications noted in the upper outer quadrant of the left breast. Skin, nipple, and pectoral muscle appear normal. No significant axillary adenopathy seen."
 }

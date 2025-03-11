@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG233.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D)",
-    "BIRADS": "4C",
+    "BIRADS": 4,
     "FINDINGS": "Multiple irregularly shaped, clustered microcalcifications with pleomorphic shapes and sizes are present in the upper outer quadrant of the breast. These findings are highly suggestive of malignancy (BI-RADS 4C). No mass lesion is visible on this image."
 }

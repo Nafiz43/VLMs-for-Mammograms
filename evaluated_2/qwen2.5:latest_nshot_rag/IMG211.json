@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG211.png",
     "BREAST-COMPOSITION": "predominantly fibroglandular breast parenchyma (ACR C).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A 6mm calcification is noted in the upper outer quadrant. The calcification appears benign based on its size and distribution, but requires short-term follow-up for stability."
 }

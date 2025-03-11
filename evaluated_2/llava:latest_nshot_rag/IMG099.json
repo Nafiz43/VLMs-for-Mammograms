@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG099.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR C).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "a well-defined oval soft opacity seen in the upper outer quadrant of the breast, with a thin capsule. no significant axillary adenopathy seen. BIRADS: 3"
 }

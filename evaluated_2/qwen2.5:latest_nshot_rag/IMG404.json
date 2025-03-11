@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG404.png",
     "BREAST-COMPOSITION": "predominantly fibro fatty breast parenchyma (ACR B).",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "Two well-defined irregular soft opacities seen in the upper outer quadrant of the breast suggest low suspicion of malignant lesions (BIRADS 4A). No significant calcifications or other abnormalities noted. Skin, nipple, and pectoral muscle appear normal. No significant axillary adenopathy."
 }

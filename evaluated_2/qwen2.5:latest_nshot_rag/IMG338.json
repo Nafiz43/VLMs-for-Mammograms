@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG338.png",
     "BREAST-COMPOSITION": "predominantly fibroglandular breast parenchyma with areas of fatty tissue (ACR B).",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "Multiple microcalcifications noted in the upper outer quadrant, some of which are clustered and may warrant further evaluation. A small, poorly defined mass is observed in the lower inner quadrant, suggestive of a low suspicion for malignancy (BIRADS 4A). No significant architectural distortion or skin retraction is noted. Nipple and pectoral muscle appear normal. No axillary adenopathy."
 }

@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG191.png",
     "BREAST-COMPOSITION": "Dense glandular and fibro-glandular breast parenchyma (ACR D).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A small, round, well-circumscribed opacity with regular margins is seen in the upper outer quadrant of the left breast. No other abnormalities are noted. Short-term follow-up is recommended to confirm stability (BIRADS 3)."
 }

@@ -9,7 +9,10 @@ Miniconda3-latest-Linux-x86_64.sh
 /__pycache__/
 /evaluated/
 /evaluated_1/
+/evaluated_2/
+/evaluated_3/
 /evaluated_old/
 /GROUND-TRUTH-REPORTS/
 /chroma/
 /chromaDB/
+/results_old/

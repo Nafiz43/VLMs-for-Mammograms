@@ -1,6 +1,6 @@
 {
     "IMG_ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG008.png",
     "BREAST-COMPOSITION": "predominantly fatty breast tissue with scattered glandular parenchyma (ACR A)",
-    "BIRADS": "1",
+    "BIRADS": 1,
     "FINDINGS": "no significant findings or abnormalities observed in the image."
 }

@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG243.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR B).",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No abnormal soft opacity or microcalcification seen. skin and nipple appear normal."
 }

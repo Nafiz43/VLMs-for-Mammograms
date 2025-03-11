@@ -1,6 +1,6 @@
 {
     "IMG_ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG150.png",
     "BREAST-COMPOSITION": "Fibro fatty breast parenchyma (ACR A)",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No significant findings or abnormalities are observed in the image."
 }

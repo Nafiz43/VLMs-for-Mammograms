@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG474.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR D)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "an ill-defined soft opacity seen in the anterior aspect of an inner and outer quadrant of the breast with overlying skin thickening suggest probably benign lesion (BIRADS 3).no abnormal microcalcification seen. BIRADS: 3"
 }

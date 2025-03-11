@@ -1,6 +1,6 @@
 {
     "IMG_ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG421.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A large well defined oval soft opacity seen in the lower quadrant of the breast suggests a probably benign lesion (BIRADS 3).Multiple foci of microcalcifications are seen in the lower quadrant of the breast overlying the above-mentioned lesion.Skin, nipple, and pectoral muscle appear normal.Benign-looking axillary adenopathy."
 }

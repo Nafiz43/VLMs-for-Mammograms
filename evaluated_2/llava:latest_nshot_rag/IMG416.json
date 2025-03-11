@@ -1,6 +1,6 @@
 {
     "IMG_ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG416.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma, which lowers the sensitivity of mammograms and may obscure small lesions (ACR D).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "Well defined oval soft opacity in the lower quadrant appears to be benign lesion (BIRADS-3)Skin, nipple, and pectoral muscle appear normalbenign vascular calcification seen."
 }

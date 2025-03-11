@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG463.png",
     "BREAST-COMPOSITION": "fibro fatty with scattered areas of glandular tissue (ACR B)",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No abnormal soft opacity or microcalcifications seen. Skin, nipple, and pectoral muscle appear normal. No significant axillary adenopathy observed."
 }

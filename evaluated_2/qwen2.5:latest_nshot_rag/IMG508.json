@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG508.png",
     "BREAST-COMPOSITION": "heterogeneously dense breast parenchyma, which may obscure small lesions (ACR D).",
-    "BIRADS": "4B",
+    "BIRADS": 4,
     "FINDINGS": "Suspicious mass-like density in the upper outer quadrant of the left breast. No significant calcifications noted. Skin and nipple appear normal. Mild axillary lymphadenopathy observed."
 }

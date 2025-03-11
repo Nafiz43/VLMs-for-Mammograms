@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG286.png",
     "BREAST-COMPOSITION": "fibro glandular breast parenchyma (ACR D).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "Benign-appearing fibroglandular density noted. No suspicious masses or calcifications identified. Short-term follow-up recommended for stability assessment."
 }

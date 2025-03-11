@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG242.png",
     "BREAST-COMPOSITION": "Fibro fatty and glandular breast parenchyma (ACR B).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A 5mm calcification is noted in the upper outer quadrant. No mass or abnormal soft opacity seen. Skin, nipple, and pectoral muscle appear normal. Benign-looking axillary adenopathy."
 }

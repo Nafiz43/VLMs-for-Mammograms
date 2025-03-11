@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG283.png",
     "BREAST-COMPOSITION": "ACR B (Scattered areas of fibroglandular density)",
-    "BIRADS": "BI-RADS 4C (high suspicion)",
+    "BIRADS": 4,
     "FINDINGS": "There are no suspicious findings in this mammogram image. The breast tissue appears to be composed mostly of fat with some scattered dense tissue, which is consistent with the ACR B category. However, due to the presence of a spiculated mass, the BIRADS category is assigned as 4C (high suspicion). Further evaluation, such as biopsy or additional imaging, may be recommended for confirmation."
 }

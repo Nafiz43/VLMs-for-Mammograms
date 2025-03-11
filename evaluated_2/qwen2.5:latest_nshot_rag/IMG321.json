@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG321.png",
     "BREAST-COMPOSITION": "fibro glandular breast parenchyma (ACR B).",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "Suspicious mass in the upper outer quadrant with irregular margins and microcalcifications. No abnormal soft opacity seen. Skin and nipple appear normal."
 }

@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG505.png",
     "BREAST-COMPOSITION": "Heterogeneously dense breast parenchyma (ACR D).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "Around the periphery of the image, there is a well-circumscribed, round, and dense calcification measuring approximately 5 mm in diameter. No other significant findings are observed."
 }

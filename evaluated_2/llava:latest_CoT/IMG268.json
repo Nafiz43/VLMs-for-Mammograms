@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG268.png",
     "BREAST-COMPOSITION": "ACR B (Scattered areas of fibroglandular density)",
-    "BIRADS": "3 (Benign lesion, requiring short-term follow-up to confirm stability)",
+    "BIRADS": 3,
     "FINDINGS": "CALC (Calcification): There are small calcifications scattered throughout the breast tissue. These could be benign or suspicious for early cancer. Further evaluation is required."
 }

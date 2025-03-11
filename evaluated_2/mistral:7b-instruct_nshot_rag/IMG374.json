@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG374.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "Around 5 o'clock position, there is a round opacity with ill-defined margins and possible microcalcifications. This finding suggests a benign lesion requiring short-term follow-up to confirm stability (BIRADS 3). No other significant findings are observed in this image."
 }

@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG001.png",
     "BREAST-COMPOSITION": "Fibro glandular breast parenchyma seen (ACR B).",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No abnormal soft opacity seen. skin, nipple, and pectoral muscle appear normal.benign-looking calcifications seen in the anterior aspect of the lower quadrant and retroareolar region of breast."
 }

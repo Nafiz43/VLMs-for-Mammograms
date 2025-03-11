@@ -1,6 +1,6 @@
 {
     "IMG_ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG426.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A small, well-defined oval soft opacity is seen in the upper quadrant of the breast. This may suggest a probably benign lesion (BIRADS 3). No abnormal calcifications are seen. Skin, nipple, and pectoral muscle appear normal. No significant axillary adenopathy."
 }

@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG181.png",
     "BREAST-COMPOSITION": "Fibro glandular fatty breast parenchyma (ACR B)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "Well defined oval soft opacity in the lower quadrant appears to be benign lesion (BIRADS-3). Skin, nipple, and pectoral muscle appear normal. Benign vascular calcification seen."
 }

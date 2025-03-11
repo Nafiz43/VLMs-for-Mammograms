@@ -1,8 +1,0 @@
-```json
-{
-    "IMG-ID": "Mammogram_001",
-    "BREAST-COMPOSITION": "Heterogeneously dense breast tissue",
-    "BIRADS": "4B",
-    "FINDINGS": "A suspicious mass is noted in the upper outer quadrant of the right breast. The mass appears oval-shaped, with indistinct margins and some internal architectural distortion. Further evaluation with a biopsy is recommended."
-}
-```

@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG270.png",
     "BREAST-COMPOSITION": "fibro glandular breast parenchyma (ACR C).",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "A suspicious mass with irregular margins and spiculated appearance seen in the upper outer quadrant of the breast. No abnormal microcalcifications noted. Skin, nipple, and pectoral muscles appear normal. No significant axillary lymphadenopathy observed."
 }

@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG208.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR C).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "No abnormal soft opacity or microcalcification seen. skin, nipple, and pectoral muscle appear normal. Benign-looking mass in the upper outer quadrant of the left breast, measuring approximately 10mm x 8mm, with smooth margins."
 }

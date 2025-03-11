@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG113.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR B)",
-    "BIRADS": "4a",
+    "BIRADS": 4,
     "FINDINGS": "There is a small, round, dense mass in the upper outer quadrant of the breast. This finding is suspicious for malignancy and requires biopsy to confirm stability. BIRADS: 4a"
 }

@@ -1,8 +1,0 @@
-```json
-{
-    "IMG-ID": "Mammogram_001",
-    "BREAST-COMPOSITION": "Heterogeneously dense breast tissue",
-    "BIRADS": "4B",
-    "FINDINGS": "There is a focal area of increased density noted in the upper outer quadrant of the right breast. This area has a spiculated margin and is concerning for a possible malignancy. Further evaluation with a biopsy is recommended."
-}
-```

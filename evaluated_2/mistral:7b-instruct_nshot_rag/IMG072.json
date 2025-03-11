@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG072.png",
     "BREAST-COMPOSITION": "Dense glandular breast tissue with some fibrosis (ACR D),",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A well-circumscribed, round opacity is seen in the upper outer quadrant of the left breast. The opacity measures approximately 10mm in diameter and has a smooth contour with no calcifications or distortion of the surrounding tissue. This finding suggests a benign lesion (BIRADS 3). No other significant findings are noted."
 }

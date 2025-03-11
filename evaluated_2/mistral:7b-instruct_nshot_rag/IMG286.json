@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG286.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A small, round, circumscribed opacity with a regular margin is seen in the upper outer quadrant of the left breast. This finding is suggestive of a benign fibroadenoma and requires short-term follow-up to confirm stability (BIRADS 3)"
 }

@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG433.png",
     "BREAST-COMPOSITION": "fibro fatty with scattered fibroglandular densities (ACR C)",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No significant abnormalities or suspicious findings observed. Benign breast parenchyma noted. Skin, nipple, and pectoral muscle appear normal. No significant axillary adenopathy seen."
 }

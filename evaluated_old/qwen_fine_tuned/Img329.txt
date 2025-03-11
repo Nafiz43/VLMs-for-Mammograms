@@ -1,8 +1,0 @@
-```json
-{
-    "IMG-ID": "Mammogram_001",
-    "BREAST-COMPOSITION": "Heterogeneously dense breast tissue",
-    "BIRADS": "4B",
-    "FINDINGS": "Mass detected in the right breast with spiculated margins and associated calcifications. This finding is suspicious for malignancy and requires further evaluation with biopsy."
-}
-```

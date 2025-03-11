@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG017.png",
     "BREAST-COMPOSITION": "fibro fatty with scattered areas of glandular tissue (ACR B)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "No significant masses or calcifications observed. A few benign vascular calcifications noted in the upper outer quadrant. No suspicious abnormalities seen. Requires short-term follow-up for stability."
 }

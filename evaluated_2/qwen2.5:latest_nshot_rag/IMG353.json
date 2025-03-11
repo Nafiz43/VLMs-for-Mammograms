@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG353.png",
     "BREAST-COMPOSITION": "<Description of breast tissue composition>",
-    "BIRADS": "<BIRADS category; any values between 1 to 6>",
+    "BIRADS": 1,
     "FINDINGS": "<Summary of any abnormalities, calcifications, or other observations>"
 }

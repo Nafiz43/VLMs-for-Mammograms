@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG449.png",
     "BREAST-COMPOSITION": "predominantly dense glandular breast parenchyma (ACR D)",
-    "BIRADS": "4B",
+    "BIRADS": 4,
     "FINDINGS": "Around the periphery of the image, there are multiple round and oval shaped calcifications with varying sizes. Some of these calcifications have a pleomorphic shape and are clustered together. There is also an irregularly shaped opacity with spiculated margins in the upper outer quadrant of the breast. These findings suggest a suspicious lesion (BIRADS 4B) requiring short-term follow-up to confirm stability."
 }

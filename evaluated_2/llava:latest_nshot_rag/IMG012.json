@@ -1,6 +1,6 @@
 {
     "IMG_ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG012.png",
     "BREAST_COMPOSITION": "fibro glandular breast parenchyma (ACR C).",
-    "BIRADS": "4a",
+    "BIRADS": 4,
     "FINDINGS": "A well-defined soft opacity seen in the central quadrant of the breast, with adjacent periareolar skin thickening suggests a low suspicious lesion (BIRADS 4a). nipple appears normal."
 }

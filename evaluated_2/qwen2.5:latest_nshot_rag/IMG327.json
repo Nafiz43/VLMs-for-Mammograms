@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG327.png",
     "BREAST-COMPOSITION": "heterogeneously dense breast parenchyma (ACR D)",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "A suspicious, ill-defined soft opacity seen in the upper outer quadrant of the left breast with spiculated margins suggests low suspicion for malignancy (BIRADS 4A). No abnormal calcifications are observed. The nipple and pectoral muscle appear normal. Mild asymmetry noted between breasts."
 }

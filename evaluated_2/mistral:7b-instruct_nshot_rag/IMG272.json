@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG272.png",
     "BREAST-COMPOSITION": "Mixed density breast tissue (ACR D)",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "An asymmetry is noted in the upper outer quadrant of the breast. No mass lesion is visibly present. However, there are several scattered calcifications with regular morphology and clustered around blood vessels, suggestive of benign findings (BI-RADS 4A)."
 }

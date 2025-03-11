@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG263.png",
     "BREAST-COMPOSITION": "predominantly fibroglandular breast parenchyma with areas of fatty tissue (ACR B).",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "Suspicious mass identified in the upper outer quadrant. No significant calcifications noted. Requires biopsy for further evaluation."
 }

@@ -18,8 +18,8 @@ def replace_none_with_one(lst):
 def replace_values(lst):
         return [1 if x in {1, 2, 3} else 2 if x in {4, 5, 6} else x for x in lst]
 
-master_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated_2/"
-results_dir = "results_2"
+master_dir = "/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated_3/"
+results_dir = "results_3"
 os.makedirs(results_dir, exist_ok=True)
 
 subdirs = [d for d in os.listdir(master_dir) if os.path.isdir(os.path.join(master_dir, d))]
@@ -123,7 +123,7 @@ for t_dir in subdirs:
     plt.xlabel("Predicted Labels")
     plt.ylabel("True Labels")
     plt.title("Confusion Matrix")
-    image_save_dir = test_dir.replace(master_dir, results_dir)
+    image_save_dir = test_dir.replace(master_dir, results_dir+"/")
     plt.savefig(image_save_dir+".png")
     plt.show()
 

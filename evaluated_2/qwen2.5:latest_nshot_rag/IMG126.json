@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG126.png",
     "BREAST-COMPOSITION": "Fibroglandular breast parenchyma with scattered fatty areas (ACR B)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "Benign-appearing fibrotic changes. No suspicious masses or microcalcifications identified."
 }

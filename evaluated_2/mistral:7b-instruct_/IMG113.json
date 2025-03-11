@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG113.png",
     "BREAST-COMPOSITION": "The breast tissue in this image appears to be heterogeneously dense, indicating a mix of fatty and dense areas.",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "There are several round, well-circumscribed calcifications scattered throughout the image. No masses or architectural distortions are evident."
 }

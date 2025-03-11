@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG130.png",
     "BREAST-COMPOSITION": "Fibro glandular breast parenchyma (ACR B).",
-    "BIRADS": "4a",
+    "BIRADS": 4,
     "FINDINGS": "There is a small, ill-defined opacity in the upper outer quadrant of the breast. This finding suggests a low suspicious lesion (BIRADS 4a). The skin, nipple, and pectoral muscle appear normal. No axillary adenopathy is visible."
 }

@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG423.png",
     "BREAST-COMPOSITION": "predominantly fibro fatty with scattered glandular breast parenchyma (ACR A)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A large well-defined lobulated soft opacity is observed in the inner quadrant of the breast, which suggests a probably benign lesion (BIRADS 3). Additionally, few tiny benign calcifications are noted. The skin and nipple appear normal."
 }

@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG469.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR A)",
-    "BIRADS": "4C",
+    "BIRADS": 4,
     "FINDINGS": "A well-defined irregular soft opacity seen in the upper quadrant of the breast, extending up to the retroareolar region, suggests a highly suspicious malignant lesion (BIRADS 4C). The skin and nipple appear normal. A few small benign-looking axillary nodes are noted."
 }

@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG488.png",
     "BREAST-COMPOSITION": "fibro glandular breast parenchyma (ACR C).",
-    "BIRADS": "4B",
+    "BIRADS": 4,
     "FINDINGS": "A mass with irregular margins and spiculated borders is observed in the upper outer quadrant of the left breast. The mass shows architectural distortion and suggests a high suspicion for malignancy (BIRADS 4B). No significant calcifications are noted within the lesion. The skin appears normal."
 }

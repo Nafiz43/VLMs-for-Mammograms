@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG055.png",
     "BREAST-COMPOSITION": "heterogeneously dense breast parenchyma with areas of fibroglandular density (ACR C).",
-    "BIRADS": "4B",
+    "BIRADS": 4,
     "FINDINGS": "Multiple suspicious microcalcifications noted in the upper outer quadrant. A 10mm mass is seen in the lower inner quadrant, which appears to be non-mass-like abnormality with spiculated margins and irregular shape. Short-term follow-up recommended."
 }

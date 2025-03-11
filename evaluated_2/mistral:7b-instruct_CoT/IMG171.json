@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG171.png",
     "BREAST-COMPOSITION": "This mammogram image shows a heterogeneously dense breast composition (ACR C), indicating a significant amount of glandular tissue with some fatty areas.",
-    "BIRADS": "BI-RADS 3",
+    "BIRADS": 3,
     "FINDINGS": "There is an irregularly shaped, spiculated mass (SPIC) detected in the upper outer quadrant of the right breast. This finding is highly suspicious for malignancy and requires biopsy confirmation."
 }

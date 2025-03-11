@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG042.png",
     "BREAST-COMPOSITION": "predominantly fibroglandular breast parenchyma with areas of fatty tissue (ACR B)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A 6mm calcification cluster is noted in the upper outer quadrant. No masses or suspicious soft tissue densities are identified. The patient should be followed up in 6 months for reassessment."
 }

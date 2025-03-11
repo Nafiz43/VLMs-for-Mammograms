@@ -1,8 +1,0 @@
-```json
-{
-    "IMG-ID": "Mammogram_001",
-    "BREAST-COMPOSITION": "Heterogeneously dense breast tissue",
-    "BIRADS": "4B",
-    "FINDINGS": "Mass detected in the upper outer quadrant of the right breast. The mass appears irregularly shaped and has spiculated margins. There are associated calcifications within the mass. Further evaluation with ultrasound and biopsy is recommended."
-}
-```

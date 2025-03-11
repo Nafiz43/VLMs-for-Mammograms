@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG157.png",
     "BREAST-COMPOSITION": "dense glandular breast parenchyma (ACR D)",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No abnormal calcification or soft opacity seen. Skin, nipple, and pectoral muscle appear normal. No significant axillary adenopathy."
 }

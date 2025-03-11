@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG287.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR B)",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "a small, well-defined, round, soft opacity seen in the upper quadrant of the breast. No abnormal microcalcification or other significant findings are present. Skin, nipple, and pectoral muscle appear normal."
 }

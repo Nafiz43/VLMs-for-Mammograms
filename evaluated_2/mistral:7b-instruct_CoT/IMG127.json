@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG127.png",
     "BREAST-COMPOSITION": "This mammogram image shows a heterogeneously dense breast composition (ACR C), indicating a significant amount of glandular tissue that can make it more challenging to detect abnormalities.",
-    "BIRADS": "BI-RADS 3",
+    "BIRADS": 3,
     "FINDINGS": "The mammogram reveals an ill-defined mass in the right upper quadrant, classified as MISC. Further evaluation is required with additional imaging or biopsy to determine if this finding is benign or malignant."
 }

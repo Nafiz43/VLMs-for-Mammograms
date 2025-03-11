@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG148.png",
     "BREAST-COMPOSITION": "Predominantly dense breast parenchyma (ACR D)",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "Round, circumscribed opacity with regular margins and homogeneous density. No calcifications or architectural distortion detected."
 }

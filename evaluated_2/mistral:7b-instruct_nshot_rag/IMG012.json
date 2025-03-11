@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG012.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D).",
-    "BIRADS": "4B",
+    "BIRADS": 4,
     "FINDINGS": "A round, circumscribed opacity with regular margins and a central lucency is seen in the upper outer quadrant of the breast. This finding suggests a benign lesion, but due to the dense breast tissue (BI-RADS 4B), further evaluation with short-term follow-up or biopsy is recommended."
 }

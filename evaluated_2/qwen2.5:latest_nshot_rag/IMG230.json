@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG230.png",
     "BREAST-COMPOSITION": "fibro glandular breast parenchyma (ACR C)",
-    "BIRADS": "4B",
+    "BIRADS": 4,
     "FINDINGS": "A suspicious mass with irregular margins and spiculated appearance is noted in the upper outer quadrant of the left breast. No calcifications are identified. The lesion has a BI-RADS 4B suspicion level, indicating moderate suspicion for malignancy. Enlarged axillary lymph nodes are observed on the same side. Skin, nipple, and pectoral muscle appear normal."
 }

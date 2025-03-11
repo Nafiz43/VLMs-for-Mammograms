@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG119.png",
     "BREAST-COMPOSITION": "heterogeneously dense breast parenchyma (ACR D), with areas of fat and fibroglandular tissue.",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "No mass or calcifications are visible in this image. However, there is a slight asymmetry in the shape of the glandular tissue in the upper outer quadrant, which requires short-term follow-up to confirm stability."
 }

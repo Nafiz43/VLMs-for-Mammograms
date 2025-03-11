@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG236.png",
     "BREAST-COMPOSITION": "Fibro fatty and scattered glandular breast parenchyma (ACR B)",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "Irregular macrolobulated ill-defined soft opacity in the outer quadrant, suggestive of a benign lesion with low suspicion for malignancy. No microcalcifications or other significant findings noted. Skin and nipple appear normal."
 }

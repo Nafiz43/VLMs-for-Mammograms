@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG164.png",
     "BREAST-COMPOSITION": "Heterogeneously dense breast parenchyma (ACR D).",
-    "BIRADS": "4C",
+    "BIRADS": 4,
     "FINDINGS": "Around the periphery of the image, there are multiple round and oval shaped calcifications with varying sizes. Some of these calcifications have a popcorn-like appearance. In the upper inner quadrant, there is an irregularly shaped opacity with ill-defined margins and a spiculated appearance suggestive of malignancy (BIRADS 4C). The nipple appears normal."
 }

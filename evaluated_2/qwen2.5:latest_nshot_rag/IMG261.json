@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG261.png",
     "BREAST-COMPOSITION": "Fibroglandular breast parenchyma (ACR C).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A 5mm calcification cluster is noted in the upper outer quadrant. The calcifications are benign-appearing and do not require biopsy at this time. No other significant findings or abnormalities were observed. Skin, nipple, and pectoral muscle appear normal."
 }

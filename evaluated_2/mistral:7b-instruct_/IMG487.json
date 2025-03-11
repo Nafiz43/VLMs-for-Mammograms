@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG487.png",
     "BREAST-COMPOSITION": "The breast tissue in this mammogram image appears to be heterogeneously dense.",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "There is a round, well-circumscribed opacity with a regular margin and a density slightly greater than the surrounding tissue. This finding is suggestive of a benign fibroadenoma or a benign fat necrosis. However, due to the heterogeneously dense breast tissue, short-term follow-up is recommended to confirm stability."
 }

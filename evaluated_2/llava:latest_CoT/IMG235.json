@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG235.png",
     "BREAST-COMPOSITION": "ACR B (Scattered areas of fibroglandular density)",
-    "BIRADS": "BI-RADS 4C (high suspicion)",
+    "BIRADS": 4,
     "FINDINGS": "ARCHITECTURAL DISTORTION, ASYMMETRY"
 }

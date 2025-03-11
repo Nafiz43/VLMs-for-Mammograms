@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG027.png",
     "BREAST-COMPOSITION": "mixed breast parenchyma with areas of fibroglandular density (ACR B)",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "a suspicious mass with irregular margins and spiculated appearance seen in the upper outer quadrant of the breast. No significant calcifications noted. Skin, nipple, and pectoral muscle appear normal. Short-term follow-up recommended."
 }

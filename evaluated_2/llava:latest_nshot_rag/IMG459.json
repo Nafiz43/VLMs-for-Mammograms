@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG459.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR A)",
-    "BIRADS": "1",
+    "BIRADS": 1,
     "FINDINGS": "no abnormalities or suspicious findings are visible in the image. The skin, nipple, and pectoral muscle appear normal. BIRADS: 1"
 }

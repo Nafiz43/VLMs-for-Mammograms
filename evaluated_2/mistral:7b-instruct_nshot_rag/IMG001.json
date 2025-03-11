@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG001.png",
     "BREAST-COMPOSITION": "Dense glandular breast tissue (ACR D).",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "Around 2 o'clock position, there is a round opacity with well-circumscribed margin and no distortion of the surrounding tissue. This finding is suggestive of a benign cyst or a benign solid mass. However, due to the dense breast tissue, it is recommended for short-term follow-up to confirm stability (BIRADS 3)."
 }

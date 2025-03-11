@@ -1,8 +1,0 @@
-```json
-{
-    "IMG-ID": "Mammogram_Lateral_View",
-    "BREAST-COMPOSITION": "Heterogeneously dense breast tissue",
-    "BIRADS": "BI-RADS 3",
-    "FINDINGS": "The mammogram shows heterogeneously dense breast tissue. There are no palpable masses or suspicious calcifications noted. The patient should be advised for short-term follow-up to monitor for any changes."
-}
-```

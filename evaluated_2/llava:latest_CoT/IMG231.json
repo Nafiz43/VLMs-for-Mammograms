@@ -1,6 +1,6 @@
 {
     "IMG-ID": "IMG231.png",
     "BREAST-COMPOSITION": "ACR B (Scattered areas of fibroglandular density)",
-    "BIRADS": "BI-RADS 2 (Benign finding, no suspicion of cancer)",
+    "BIRADS": 2,
     "FINDINGS": "No suspicious findings or abnormalities detected in the image."
 }

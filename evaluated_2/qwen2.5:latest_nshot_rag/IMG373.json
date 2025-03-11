@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG373.png",
     "BREAST-COMPOSITION": "Fibroglandular breast parenchyma (ACR C).",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No abnormal solid lesions or microcalcifications observed. Skin, nipple, and pectoral muscle appear normal."
 }

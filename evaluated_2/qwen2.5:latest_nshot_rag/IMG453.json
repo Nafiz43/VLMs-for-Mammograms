@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG453.png",
     "BREAST-COMPOSITION": "predominantly fibro fatty breast parenchyma (ACR A)",
-    "BIRADS": "4C",
+    "BIRADS": 4,
     "FINDINGS": "A well-defined irregular soft opacity with spiculated margins is observed in the posterior aspect of the inner quadrant of the breast, suggesting a highly suspicious malignant lesion (BIRADS 4C). The skin and nipple appear normal. Benign-looking calcifications are also noted."
 }

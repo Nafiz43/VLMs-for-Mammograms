@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG478.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR C)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A 5mm calcification is noted in the upper outer quadrant. No abnormal soft tissue masses or architectural distortions are observed. The patient should be followed up in 6 months."
 }

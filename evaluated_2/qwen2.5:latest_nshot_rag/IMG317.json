@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG317.png",
     "BREAST-COMPOSITION": "fibro-glandular breast parenchyma (ACR C)",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No significant abnormalities or suspicious lesions observed. The breast composition is fibro-glandular, which is a common finding. No microcalcifications, masses, or other concerning features are noted. Skin and nipple appear normal. No significant axillary adenopathy."
 }

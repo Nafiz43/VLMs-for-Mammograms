@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG005.png",
     "BREAST-COMPOSITION": "heterogeneously dense fibroglandular breast parenchyma (ACR C).",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "Suggestive of benign findings, but requires short-term follow-up. No significant microcalcifications or masses observed. Mild asymmetry noted in the left breast compared to the right."
 }

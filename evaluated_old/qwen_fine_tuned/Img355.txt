@@ -1,8 +1,0 @@
-```json
-{
-    "IMG-ID": "Mammogram_Lateral_View",
-    "BREAST-COMPOSITION": "Heterogeneously dense",
-    "BIRADS": "3",
-    "FINDINGS": "The mammogram shows heterogeneously dense breast tissue. There are no palpable masses or architectural distortions noted. The image demonstrates scattered calcifications that are benign in appearance. No suspicious lesions are identified."
-}
-```

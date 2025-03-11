@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG438.png",
     "BREAST-COMPOSITION": "heterogeneously dense breast parenchyma (ACR D)",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "Multiple round and oval shaped calcifications are seen scattered throughout the image, some of which exhibit a clustered pattern. No mass lesion is evident in this image. The breast tissue appears to have an irregular contour with some areas of increased density. These findings suggest a low suspicion (BI-RADS 4A) for malignancy."
 }

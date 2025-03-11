@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG170.png",
     "BREAST-COMPOSITION": "fibro glandular breast parenchyma (ACR C).",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "Suspicious mass in the upper outer quadrant of the left breast. No significant calcifications or other abnormalities noted. Skin, nipple, and pectoral muscle appear normal."
 }

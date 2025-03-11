@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG493.png",
     "BREAST-COMPOSITION": "predominantly fibroglandular breast parenchyma with areas of fat (ACR A)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A benign-appearing mass is seen in the upper outer quadrant of the breast. The margins are well-defined and smooth, with no spicules or irregularities noted. No suspicious microcalcifications or other concerning features are observed. Skin, nipple, and pectoral muscle appear normal. Short-term follow-up recommended for stability."
 }

@@ -1,6 +1,6 @@
 {
     "IMG_ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG121.png",
     "BREAST-COMPOSITION": "fibro glandular breast parenchyma (ACR C).",
-    "BIRADS": "4a",
+    "BIRADS": 4,
     "FINDINGS": "A small, well-defined, irregular soft opacity is seen in the upper quadrant of the breast. This finding suggests a low suspicious malignant lesion (BIRADS 4a). The rest of the breast appears normal with no other abnormalities or calcifications."
 }

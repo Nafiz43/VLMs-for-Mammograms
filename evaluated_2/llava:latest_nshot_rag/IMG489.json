@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG489.png",
     "BREAST-COMPOSITION": "Fatty breast tissue with some glandular tissue (ACR B).",
-    "BIRADS": "1",
+    "BIRADS": 1,
     "FINDINGS": "No abnormalities, calcifications or other observations are seen in the image."
 }

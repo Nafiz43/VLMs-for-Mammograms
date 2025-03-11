@@ -1,6 +1,6 @@
 {
     "IMG_ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG427.png",
     "BREAST-COMPOSITION": "Fibro fatty and glandular breast parenchyma (ACR B)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A well-defined, oval-shaped opacity with a smooth contour in the upper outer quadrant of the breast. This suggests a benign lesion (BI-RADS 3). No other significant findings are present."
 }

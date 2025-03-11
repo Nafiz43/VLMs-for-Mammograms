@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG408.png",
     "BREAST-COMPOSITION": "predominantly fatty with scattered fibroglandular densities (ACR D)",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No suspicious masses, calcifications or architectural distortions are identified in this image. The breast tissue appears normal and homogeneous."
 }

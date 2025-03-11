@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG276.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR B)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "A 5mm calcification is seen in the upper outer quadrant of the left breast. The calcification appears benign based on its size, shape, and distribution. No masses or suspicious areas are identified. Short-term follow-up recommended."
 }

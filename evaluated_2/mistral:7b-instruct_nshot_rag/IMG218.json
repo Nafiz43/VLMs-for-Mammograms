@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG218.png",
     "BREAST-COMPOSITION": "Mixed glandular and fatty breast tissue (ACR C).",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No mass or calcification is visible in this image. The skin, nipple, and pectoral muscle appear normal."
 }

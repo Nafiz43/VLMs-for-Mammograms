@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG068.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR C)",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "A small, well-defined irregular soft opacity seen in the upper outer quadrant of the breast. No significant calcifications or other abnormalities noted. Mild diffuse skin thickening observed but does not appear suspicious at this time. No enlarged axillary lymph nodes identified. BIRADS: 4A"
 }

@@ -1,8 +1,0 @@
-```json
-{
-    "IMG-ID": "Mammogram_Lateral",
-    "BREAST-COMPOSITION": "Heterogeneously dense",
-    "BIRADS": "4B",
-    "FINDINGS": "Mass detected in the lower outer quadrant of the left breast. The mass appears oval-shaped, has a spiculated margin, and shows internal architectural distortion. There are associated calcifications within the mass."
-}
-```

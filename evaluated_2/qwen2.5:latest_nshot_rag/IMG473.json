@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG473.png",
     "BREAST-COMPOSITION": "fibro glandular breast parenchyma (ACR C)",
-    "BIRADS": "4B",
+    "BIRADS": 4,
     "FINDINGS": "A suspicious mass with spiculated margins and microcalcifications seen in the upper outer quadrant of the left breast. The mass is highly suspicious for malignancy (BIRADS 4B). No significant skin changes or axillary lymphadenopathy noted."
 }

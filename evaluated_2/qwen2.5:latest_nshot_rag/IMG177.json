@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG177.png",
     "BREAST-COMPOSITION": "fibro fatty with scattered glandular breast parenchyma (ACR B)",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No abnormal soft opacity or microcalcifications seen. Skin, nipple, and pectoral muscle appear normal. No significant axillary nodes observed."
 }

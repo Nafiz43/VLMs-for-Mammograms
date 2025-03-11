@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG457.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "Around 2 o'clock position in the left breast, there is a round opacity with ill-defined margins and some internal calcifications. This finding suggests a benign lesion that requires short-term follow-up to confirm stability (BIRADS 3). The skin, nipple, and pectoral muscle appear normal."
 }

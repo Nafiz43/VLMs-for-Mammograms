@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG470.png",
     "BREAST-COMPOSITION": "Fibroglandular breast parenchyma (ACR B)",
-    "BIRADS": "2",
+    "BIRADS": 2,
     "FINDINGS": "No significant abnormalities or calcifications are observed. The breast tissue composition is fibroglandular, which is within normal limits. Both skin and nipple appear to be in a normal condition."
 }

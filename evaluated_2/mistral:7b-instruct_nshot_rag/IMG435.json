@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG435.png",
     "BREAST-COMPOSITION": "heterogeneously dense breast parenchyma (ACR D)",
-    "BIRADS": "3",
+    "BIRADS": 3,
     "FINDINGS": "Around 10 o'clock position, there is a round, well-circumscribed opacity with regular margins and possible calcifications. This finding requires short-term follow-up to confirm stability."
 }

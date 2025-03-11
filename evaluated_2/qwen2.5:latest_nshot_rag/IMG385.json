@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG385.png",
     "BREAST-COMPOSITION": "fibro fatty and glandular breast parenchyma (ACR B).",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "Suggestive but not diagnostic of a benign lesion; requires further evaluation with short-term follow-up or additional imaging. A small, well-defined irregular opacity is noted in the upper outer quadrant of the breast. No microcalcifications are observed. Skin, nipple, and pectoral muscle appear normal. No significant axillary adenopathy."
 }

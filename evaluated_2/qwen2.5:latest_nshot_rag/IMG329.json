@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG329.png",
     "BREAST-COMPOSITION": "mixed breast parenchyma with areas of fibroglandular density (ACR C).",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "A small, well-defined mass with spiculated margins located in the upper outer quadrant. No significant calcifications observed. Skin and nipple appear normal. Mildly enlarged axillary lymph nodes noted."
 }

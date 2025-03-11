@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG320.png",
     "BREAST-COMPOSITION": "predominantly fibroglandular breast parenchyma with areas of fat (ACR B).",
-    "BIRADS": "4A",
+    "BIRADS": 4,
     "FINDINGS": "A suspicious mass-like opacity seen in the upper outer quadrant of the breast, measuring approximately 1.2 cm, with irregular margins and spiculated appearance. No microcalcifications noted. Skin and nipple appear normal. No axillary adenopathy observed. Requires biopsy for further evaluation."
 }

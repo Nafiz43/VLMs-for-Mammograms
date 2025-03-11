@@ -1,6 +1,6 @@
 {
     "IMG-ID": "/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG485.png",
     "BREAST-COMPOSITION": "Dense glandular breast parenchyma (ACR D)",
-    "BIRADS": "4B",
+    "BIRADS": 4,
     "FINDINGS": "Around the periphery of the image, there is a well-circumscribed, round mass with a smooth contour and dense internal calcifications. The mass measures approximately 1.5 cm in diameter. No distortion or skin thickening is noted in the surrounding tissue. This finding suggests a benign calcified fibroepithelial lesion (BIRADS 4B). However, due to its size and density, short-term follow-up is recommended for confirmation of stability."
 }
