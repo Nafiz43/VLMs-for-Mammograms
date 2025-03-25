@@ -17,3 +17,8 @@ Miniconda3-latest-Linux-x86_64.sh
 /chromaDB/
 /results_old/
 /vindr/
+/evaluated-vindr/
+mistral_vindr_base.txt
+qwen2.5_vindr_base.txt
+mixtral_vindr_base.txt
+/logs

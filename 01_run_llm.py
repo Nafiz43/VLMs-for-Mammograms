@@ -4,7 +4,7 @@ from _constant import *
 # source_file_dir = '/mnt/data1/raiyan/breast_cancer/datasets/dmid/png_images/all_images/IMG'
 
 # source_file_dir =  '/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG'
-source_file_dir =  '/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/vindr/L_CC/'
+source_file_dir =  '/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/vindr/R_CC/'
 # saving_dir = '/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/llava_base/'
 
 img_files = list_png_files(source_file_dir)
@@ -80,10 +80,12 @@ def main(model_name, reports_to_process):
         # query = 'image ID: ' + report_id
         query = prompt_template+ 'image ID: '+  report_id
 
+        print("QUERY: ", query)
+
         ollama = Ollama(model=model_name, temperature=temp)
         logging.getLogger().setLevel(logging.ERROR)  # Suppress INFO logs
         response = ollama.invoke(query)
-        print(response)
+        print("RESPONSE: ",response)
 
         ###the following is a dummy response for testing ###
 
