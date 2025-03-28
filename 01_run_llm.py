@@ -4,7 +4,7 @@ from _constant import *
 # source_file_dir = '/mnt/data1/raiyan/breast_cancer/datasets/dmid/png_images/all_images/IMG'
 
 # source_file_dir =  '/mnt/data1/raiyan/breast_cancer/datasets/dmid/pixel_level_annotations/png_images/IMG'
-source_file_dir =  '/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/vindr/R_CC/'
+source_file_dir =  '/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/vindr/L_CC/'
 # saving_dir = '/mnt/data1/raiyan/breast_cancer/VLMs-for-Mammograms/evaluated/llava_base/'
 
 img_files = list_png_files(source_file_dir)
