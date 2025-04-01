@@ -1,6 +1,6 @@
-# VLMs-for-Mammograms Project
+# MammoGen-RAG: VLMs-for-Mammograms Project
 
-This README provides instructions for setting up and running the VLMs-for-Mammograms project.
+This README provides instructions for setting up and running the MammoGen-RAG project.
 
 ## Table of Contents
 1. [System Requirements](#system-requirements)
