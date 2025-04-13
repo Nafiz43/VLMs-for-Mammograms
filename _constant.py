@@ -42,7 +42,7 @@ def fix_json(json_input):
 
     # Ensure input is a string (or bytes), otherwise return error JSON
     if not isinstance(json_input, (str, bytes, bytearray)):
-        return {"IMG_ID": "NA", "Breast_Composition": "NA", "BIRADS": "NA", "Findings": "NA"}
+        return {"IMG_ID_CC": "NA", "IMG_ID_MLO": "NA", "Breast_Composition": "NA", "BIRADS": "NA", "Findings": "NA"}
 
     # First, check if the JSON is already valid
     try:
@@ -50,7 +50,7 @@ def fix_json(json_input):
         if isinstance(parsed_json, dict):
             return parsed_json  # Ensure it's a dictionary
         else:
-            return {"IMG_ID": "NA", "Breast_Composition": "NA", "BIRADS": "NA", "Findings": "NA"}
+            return {"IMG_ID_CC": "NA", "IMG_ID_MLO": "NA", "Breast_Composition": "NA", "BIRADS": "NA", "Findings": "NA"}
     except json.JSONDecodeError:
         pass  # If invalid, proceed with fixing
 
@@ -65,4 +65,4 @@ def fix_json(json_input):
             continue  # Keep trimming
 
     # If all attempts fail, return error JSON
-    return {"IMG_ID": "NA", "Breast_Composition": "NA", "BIRADS": "NA", "Findings": "NA"}
+    return {"IMG_ID_CC": "NA", "IMG_ID_MLO": "NA", "Breast_Composition": "NA", "BIRADS": "NA", "Findings": "NA"}
